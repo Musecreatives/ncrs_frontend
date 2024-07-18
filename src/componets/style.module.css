@@ -1,0 +1,514 @@
+
+
+.nav{
+    @apply fixed flex w-full items-center justify-between p-3 bg-white slg:hidden z-50
+
+}
+
+.nav_bars{
+    @apply size-9
+}
+
+/* web navigator */
+
+.web_nav{
+    @apply sticky w-full items-center justify-between pl-3 py-5  pr-10 bg-white hidden slg:flex z-50
+
+}
+
+.web_nav_logo{
+    @apply pr-[10px] xl:w-[10%] 2xl:w-[8%] border-r-[1px] border-[#D9D9D9]
+}
+
+
+.web_nav_links{
+    @apply flex w-[82%] slg:w-[80%] xl:w-[80%] 2xl:w-[60%] items-center justify-between
+}
+
+.web_link{
+    @apply text-[16px] xlg:text-[20px] xlg:text-[18px] font-[600] text-[#1C5237] 
+}
+
+.link_arrow{
+    @apply flex gap-[5px] items-baseline xl:items-center justify-between
+}
+
+/* Hero */
+
+
+.mobile_hero{
+    @apply slg:hidden pt-[6rem] h-[25rem] bg-red-500 bg-mobileherobg bg-cover bg-no-repeat 
+}
+
+.mobile_hero_heading{
+    @apply text-[36px] font-[700] h-full text-center text-white
+}
+
+/* Web Hero */
+
+.web_hero{
+    @apply hidden slg:block relative py-10 overflow-hidden h-[24rem] slg:h-[30rem] xlg-max:h-[100vh] xl:h-[100vh] bg-red-500 bg-mobileherobg bg-cover overflow-auto
+}
+
+.web_hero_heading{
+    @apply mb-10 px-10 slg:w-[79%]  2xl:w-[45%] absolute slg:top-[17%] xlg:top-[22%] 2xl:left-[5%]  text-white
+}
+
+.web_hero_dash{
+    @apply block bg-[#1C5237] h-[20px] w-[116px]
+}
+
+.web_hero_text_one{
+    @apply text-[38px] font-[300]
+}
+
+.web_hero_text_two{
+    @apply text-[38px] xlg:text-[48px] 2xl:text-[58px] font-[700] capitalize
+}
+
+.web_hero_layer{
+    @apply absolute top-0 w-full h-[100vh] bg-black opacity-[0.45]
+}
+
+.web_hero_text_three{
+    @apply mt-5 text-[21px] font-[500]
+}
+
+/* Footer */
+
+.footer{
+    @apply bg-black text-white px-[34px] pt-10 pb-5 slg:hidden
+}
+
+.footer_heading{
+    @apply text-[24px] font-[700]
+}
+
+.footer_consultancy{
+    @apply text-[16px]  my-5
+}
+
+.footer_section_one{
+
+}
+
+.footer_section_one > h1{
+    @apply text-[24px] font-[700]
+}
+
+.footer_section_one > p{
+    @apply text-[20px] font-[500]
+}
+
+.footer_section_two{
+
+}
+
+.footer_section_two > h1{
+    @apply font-[700] text-[24px] my-10
+}
+
+.footer_section_two_link{
+    @apply block text-[20px] font-[500]
+}
+
+.footer_section_three > h1{
+    @apply font-[700] text-[24px] my-10
+}
+
+.footer_section_three > p{
+    @apply block text-[20px] font-[500]
+}
+
+.footer_section_four{
+
+}
+
+.footer_section_four > h1{
+    @apply text-[24px] font-[700] my-10
+}
+
+.footer_section_four > p{
+    @apply font-[400] text-[16px]
+}
+
+.footer_section_five{
+    @apply my-10
+}
+
+.footer_section_five > p{
+    @apply font-[400] text-[16px] my-3
+}
+
+/* web footer */
+
+.web_footer{
+    @apply hidden slg:block bg-[#191D1F] text-[#FFF] py-10 px-10 xlg:px-5
+}
+
+.web_footer_cover{
+    @apply grid grid-cols-2 xlg:grid-cols-4 gap-5
+}
+
+.web_footer_subsidiaries{
+
+}
+
+.web_footer_subsidiaries > h1{
+    @apply text-[24px] font-[500] mb-5
+}
+
+.web_footer_subsidiaries_link{
+    @apply text-[16px] font-[400]
+}
+
+.web_footer_subsidiaries_office{
+    @apply mt-5
+}
+
+.web_footer_subsidiaries_office > h1{
+    @apply text-[24px] font-[700]
+}
+
+.web_footer_subsidiaries_office > p{
+    @apply text-[20px] font-[500px]
+}
+
+.web_footer_links{
+    
+}
+
+.web_footer_links_heading{
+    @apply text-[24px] font-[700]
+}
+
+.web_footer_links_link{
+    @apply block text-[20px] font-[500]
+}
+
+.web_footer_support{
+
+}
+
+.web_footer_support_heading{
+    @apply text-[24px] font-[700]
+}
+
+.web_footer_support_section_one{
+    @apply mt-5
+}
+
+.web_footer_support_section_one > p{
+    @apply text-[20px] font-[500]
+}
+
+.web_footer_contacts{
+
+}
+
+.web_footer_contacts_heading{
+    @apply text-[24px] font-[700]
+}
+
+.web_footer_contacts_section_one{
+    @apply mt-5
+}
+
+.web_footer_contacts_section_one > p{
+    @apply text-[16px] font-[400] mb-10
+}
+
+.web_footer_contacts_section_two > p{
+    @apply text-[16px] font-[400]
+}
+
+.web_footer_contacts_section_two > p:nth-child(1){
+    @apply mb-5
+}
+
+/* Key Links */
+
+.mobile_key_links{
+    @apply py-5 px-5 slg:hidden 
+}
+
+.mobile_key_links_heading{
+    @apply text-[40px] font-[700] text-center
+}
+
+.mobile_key_link_icon_cover{
+    @apply w-full mb-3
+}
+
+.mobile_key_link_icon{
+    @apply w-[23px] h-[23px] 
+}
+
+.mobile_key_links_containers{
+    @apply overflow-hidden grid grid-rows-2 grid-flow-col gap-5 mt-5
+}
+
+.mobile_key_link_container{
+    @apply relative border-[1px] border-[#00000040] w-full h-[150px] shadow-[#00000040] rounded-[15px] overflow-hidden px-3
+}
+
+.mobile_key_link_container_text{
+    @apply text-center font-[700] text-[16px] text-[#1C5237]
+}
+
+.mobile_key_link_container_bottom_clip{
+    @apply absolute block bg-[#1C5237] h-[34px] w-[20px] rounded-[15px] right-[-6px] top-[120px] rotate-45
+}
+
+.mobile_key_link_container_section_one{
+    @apply flex flex-col justify-between items-center mb-2 mt-3
+}
+
+.mobile_key_link_container_section_one > p{
+    @apply text-[20px] font-[500] text-[#1C5237]
+}
+
+.web_key_links{
+    @apply hidden w-full slg:block px-5 my-10
+}
+
+.web_key_links_heading{
+    @apply text-[40px] font-[700] text-[#000000] text-center
+}
+
+.web_link_key_cards{
+    @apply grid grid-cols-2 xlg:grid-cols-3 gap-5 mt-10
+}
+
+.web_link_key_card{
+    @apply w-full relative overflow-hidden shadow-3xl rounded-[15px] p-5
+}
+
+.web_key_links_card_heading{
+    @apply text-[#1C5237] text-[20px] text-[500] text-center
+}
+
+.web_key_links_card_content{
+    @apply flex justify-between items-center my-5
+}
+
+.web_key_links_card_content >p{
+    @apply text-[20px] font-[600] text-[#1C5237]
+}
+
+.web_key_links_card_icon{
+    @apply w-[40%]
+}
+
+.web_key_link_container_bottom_clip{
+    @apply hidden
+}
+
+/* Quote */
+
+.mobile_quote{
+    @apply block px-3 slg:px-10 my-10 xlg:hidden 
+}
+
+.mobile_quote_left{
+    @apply w-full flex justify-start
+}
+
+.mobile_quote_right{
+    @apply w-full flex justify-end
+}
+
+.mobile_quote_text{
+    @apply text-[16px] font-[400] px-3
+}
+
+/* Web Qoute */
+
+.web_quote{
+    @apply px-3 xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-10 gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
+}
+
+.web_quote_img{
+    @apply w-[40%] h-[100%] 2xl:h-[80%] object-cover top-0
+}
+
+.web_quote_content{
+    @apply w-[60%]
+}
+
+.web_quote_content > h1{
+    @apply text-[36px] font-[700]
+}
+
+.web_quote_text > p{
+    @apply text-[16px] font-[400]
+}
+
+.web_quote_text > p:nth-child(3){
+    @apply mt-10
+}
+
+.web_quote_left{
+    @apply  w-full flex justify-start
+}
+
+.web_quote_right{
+    @apply w-full flex justify-end
+}
+
+
+/* Card Two */
+.mobile_card_two{
+    @apply px-3 w-full my-10 xlg:hidden
+}
+
+.mobile_card_two_grid{
+    @apply grid grid-cols-3 grid-flow-col gap-2 my-3
+}
+
+.mobile_card_two_card{
+    @apply flex flex-col w-full justify-between items-center gap-5 shadow-sm shadow-[#00000040] rounded-[15px] py-10 px-5
+}
+
+.mobile_card_two_card > p{
+    @apply text-[14px] font-[700] text-[#1C5237]
+}
+
+/* web department */
+
+.web_department{
+    @apply  hidden xlg:block w-full px-3 xlg-max:w-[80%] xlg-max:mx-[auto]
+}
+
+.web_department_heading{
+    @apply text-[40px] font-[700] text-center
+}
+
+.web_department_container{
+    @apply grid grid-cols-2 xl:grid-cols-3 gap-10 my-10
+}
+
+.web_department_card{
+    @apply flex justify-between items-center h-[183px] py-[24px] px-[23px] rounded-[15px] shadow-3xl
+}
+
+.web_department_card > p{
+    @apply text-[24px] font-[700] text-[#1C5237]
+}
+
+.web_department_card_icon{
+    @apply size-10 w-[30%] h-[51px]
+}
+
+/* programs */
+
+.programs{
+    @apply overflow-hidden px-3 my-[6rem]
+}
+
+.programs_heading{
+    @apply text-[20px] slg:text-[40px] font-[500] text-center 
+}
+
+
+.programs_cards{
+    @apply w-[100%] 2xl:w-[80%] relative flex items-center justify-evenly gap-x-5 overflow-hidden mt-5 mx-[auto] 
+}
+
+.programs_card{
+    @apply w-[100%] slg:w-[50%] xlg-min:w-[33%] 2xl:w-[33%] xl:w-[40%] h-full rounded-[15px] pb-5 shadow-lg shadow-[#00000040] my-5 flex-[0_0_auto]
+}
+
+.programs_card_banner{
+    @apply w-full rounded-[15px] 
+}
+
+.programs_card_content{
+    @apply w-full px-3 mt-5
+}
+
+.programs_card_content > p{
+    @apply text-[18px] font-[700] text-[#D52027]
+}
+
+.programs_card_content_link_cover{
+    @apply w-full flex justify-end items-center my-2
+}
+
+.programs_card_content_link{
+    @apply w-[117px] h-[43px] pt-3 text-center block rounded-[18px] bg-[#1C5237] text-[#FFFF]
+}
+
+/* blog post slide */
+
+.blog_post_slide{
+    @apply my-10 overflow-hidden px-3
+}
+
+.blog_post_slide_heading{
+    @apply text-[20px] font-[500] text-center slg:hidden
+}
+
+.web_blog_post_slide_heading{
+    @apply hidden slg:block text-[#000000] font-[700] text-[60px] text-center
+
+}
+
+.blog_post_slide_cards{
+    @apply mt-10 flex items-center justify-between overflow-hidden gap-x-5 w-[100%]  2xl:w-[80%] mx-[auto] py-10 xl:pl-10
+}
+
+.blog_post_slide_card{
+    @apply w-[100%] slg:w-[50%] xlg-min:w-[33%] 2xl:w-[33%] xl:w-[40%] flex-[0_0_auto]
+}
+
+.blog_post_slide_card_banner{
+    @apply w-full h-[10rem] rounded-[15px]
+}
+
+.blog_post_slide_card_content_one{
+    @apply flex justify-between items-center my-2
+}
+
+.blog_post_slide_card_content_one > p:nth-child(1){
+    @apply text-[16px] font-[700] text-[#D52027]
+}
+
+.blog_post_slide_card_content_one > p:nth-child(2){
+    @apply text-[20px] font-[500]
+}
+
+
+.blog_post_slide_card_content_heading{
+    @apply flex items-center justify-between w-full h-[45px] px-3 rounded-[15px] border-[1px] border-[#D52027]
+}
+
+.blog_post_slide_card_link{
+    @apply flex relative items-center justify-between w-full h-[45px] mt-3 px-3 rounded-[15px] border-[1px] border-[#D52027]
+}
+
+.blog_post_slide_card_arrow{
+    @apply size-6
+}
+
+/* services */
+
+.services{
+    @apply hidden xlg:block bg-[#1C5237] px-[2rem] py-[5rem] text-[#FFFF]
+}
+
+.services_line{
+    @apply block bg-[#FFFF] w-[375px] h-[2px]
+}
+
+.services_heading{
+    @apply mt-10 text-[36px] font-[600]
+}
+
+.service{
+    @apply grid grid-cols-4 mt-10 gap-5
+}
+
+.service > p{
+    @apply font-[500] text-[24px]
+}

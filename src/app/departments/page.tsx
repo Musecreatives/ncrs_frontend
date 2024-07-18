@@ -17,9 +17,45 @@ export default function Department(){
             <section className={styles.department_section_one}>
                 <h1>Department of Finance & Administrations</h1>
                 <p>The department headed by a Deputy Director is subdivided into two sections, namely; General Administration and Finance Sections. The General Administration Section is further subdivided into units for efficient functioning. There are six Units headed by the Chief Administrative/Executive Officer who supervises the activities and staff in each of the units.</p>
-                <Link href="#">
+                <Link className={styles.department_section_one_link} href="#">
                     <p>Learn More</p>
-                    <RightArrow iconStyle=''/>
+                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
+                </Link>
+            </section>
+
+            <section className={styles.department_section_one}>
+                <h1>Strategic Planning Department</h1>
+                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
+                <Link className={styles.department_section_one_link} href="#">
+                    <p>Learn More</p>
+                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
+                </Link>
+            </section>
+
+            <section className={styles.department_section_one}>
+                <h1>Strategic Planning Department</h1>
+                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
+                <Link className={styles.department_section_one_link} href="#">
+                    <p>Learn More</p>
+                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
+                </Link>
+            </section>
+
+            <section className={styles.department_section_one}>
+                <h1>Strategic Planning Department</h1>
+                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
+                <Link className={styles.department_section_one_link} href="#">
+                    <p>Learn More</p>
+                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
+                </Link>
+            </section>
+
+            <section className={styles.department_section_one}>
+                <h1>Strategic Planning Department</h1>
+                <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
+                <Link className={styles.department_section_one_link} href="#">
+                    <p>Learn More</p>
+                    <RightArrow iconStyle={styles.department_section_one_link_icon}/>
                 </Link>
             </section>
         </main>
@@ -30,129 +66,58 @@ export default function Department(){
 
 export function WebDepartment(){
     return(
-        <main className={styles.web_about}>
-            <section className={styles.web_about_hero}>
-                <div className={styles.web_about_hero_layer}></div>
-                <div className={styles.web_about_hero_content}>
+        <main className={styles.web_department}>
+            <section className={styles.web_department_hero}>
+                <div className={styles.web_department_hero_layer}></div>
+                <div className={styles.web_department_hero_content}>
                     <p>Home / <span>About NCRS</span></p>
-                    <div className={styles.web_about_hero_content_sub}>
-                        <p>NATIONAL CENTRE FOR REMOTE SENSING</p>
-                        <h1>About NCRS</h1>
+                    <div className={styles.web_department_hero_content_sub}>
+                        <p>Our divisions and functions</p>
+                        <h1>Departments</h1>
                     </div>
                 </div>
             </section>
-            <section className={styles.web_about_section_two}>
-                <div className={styles.web_about_section_two_content_line}></div>
-                <div className={styles.web_about_section_two_content_cover}>
-                    <div className={styles.web_about_section_two_content}>
-                        <h1>History of NCRS</h1>
-                        <article>
-                            <p>The desire by Nigeria to establish its own comprehensive Remote Sensing Centre dates back to 1976, when the Government first made its intentions known during an Inter-Governmental meeting held in Addis Ababa, Ethiopia. </p>
-                            <p>Before this pronouncement, several studies undertaken on behalf of the Government have indicated the need for such a centre to be centrally located.  One such study was carried out by the Food and Agricultural Organization (FAO).</p>
-                        </article>
+           <section className={styles.web_department_section_two}>
+                <div className={styles.web_department_section_two_contents}>
+                    <div className={styles.web_department_section_two_contents_one}>
+                        <h1>Department of Finance & Administration</h1>
+                        <p>The department headed by a Deputy Director is subdivided into two sections, namely; General Administration and Finance Sections. The General Administration Section is further subdivided into units for efficient functioning. There are six Units headed by the Chief Administrative/Executive Officer who supervises the activities and staff in each of the units.</p>
+                        <Link className={styles.web_department_section_two_link} href="#">
+                            <p>Learn More</p>
+                            <RightArrow iconStyle={styles.web_department_section_two_link_icon}/>
+                        </Link>
                     </div>
-                    <Image src="/img/img-02.jpg" alt='image' className={styles.web_about_section_two_banner} width={100} height={100}/>
+                    <Image src="/img/img-07.jpg" alt="image" className={styles.web_department_section_two_contents_banner} width={100} height={100}/>
                 </div>
-            </section>
-            <section className={styles.web_about_section_three}>
-                <h1 className={styles.web_about_section_three_heading}>Core Values</h1>
-                <div className={styles.web_about_section_three_cards}>
-                    <div className={styles.web_about_section_three_card}>
-                        <Image src="/img/img-03.png" alt='image' className={styles.web_about_section_three_card_img} width={100} height={100}/>
-                        <p>Professionalism</p>
-                    </div>
+           </section>
 
-                    <div className={styles.web_about_section_three_card}>
-                        <Image src="/img/img-04.png" alt='image' className={styles.web_about_section_three_card_img} width={100} height={100}/>
-                        <p>Integrity</p>
+           <section className={styles.web_department_section_three}>
+                <div className={styles.web_department_section_three_contents}>
+                    <div className={styles.web_department_section_three_contents_one}>
+                        <h1>Strategic Planning Department</h1>
+                        <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
+                        <Link className={styles.web_department_section_three_link} href="#">
+                            <p>Learn More</p>
+                            <RightArrow iconStyle={styles.web_department_section_three_link_icon}/>
+                        </Link>
                     </div>
-
-                    <div className={styles.web_about_section_three_card}>
-                        <Image src="/img/img-05.png" alt='image' className={styles.web_about_section_three_card_img} width={100} height={100}/>
-                        <p>TeamWork</p>
-                    </div>
-
-                    <div className={styles.web_about_section_three_card}>
-                        <Image src="/img/img-06.png" alt='image' className={styles.web_about_section_three_card_img} width={100} height={100}/>
-                        <p>Excellence</p>
-                    </div>
+                    <Image src="/img/img-08.jpg" alt="image" className={styles.web_department_section_three_contents_banner} width={100} height={100}/>
                 </div>
-            </section>
-            <section className={styles.web_about_section_four}>
+           </section>
 
-                <div className={styles.web_about_section_four_content_one}>
-                    <h1>OUR VISION</h1>
-                    <p>NCRS is committed to being a Centre of excellence in the provision of Geo-informatics
-                    services for sustainable Development.</p>
+           <section className={styles.web_department_section_two}>
+                <div className={styles.web_department_section_two_contents}>
+                    <div className={styles.web_department_section_two_contents_one}>
+                        <h1>Department of Finance & Administration</h1>
+                        <p>The department headed by a Deputy Director is subdivided into two sections, namely; General Administration and Finance Sections. The General Administration Section is further subdivided into units for efficient functioning. There are six Units headed by the Chief Administrative/Executive Officer who supervises the activities and staff in each of the units.</p>
+                        <Link className={styles.web_department_section_two_link} href="#">
+                            <p>Learn More</p>
+                            <RightArrow iconStyle={styles.web_department_section_two_link_icon}/>
+                        </Link>
+                    </div>
+                    <Image src="/img/img-07.jpg" alt="image" className={styles.web_department_section_two_contents_banner} width={100} height={100}/>
                 </div>
-
-                <div className={styles.web_about_section_four_content_two}>
-                    <h1>OUR MISSION</h1>
-                    <p>Advancing knowledge through research and  applications of Remote Sensing, GIS and related  technologies for the identification, inventory, 
-                    development and management of natural and  human resources.</p>
-                </div>
-
-            </section>
-            <section className={styles.web_about_section_five}>
-                <h1>Management Team</h1>
-
-                <div className={styles.web_about_section_five_cards}>
-                    <div className={styles.web_about_section_five_card}>
-                        <Image src="/img/img-01.jpg" alt='image' className={styles.web_about_section_five_card_img} width={100} height={100}/>
-                        <div className={styles.web_about_section_five_card_content}>
-                            <h1>Barrack Obama</h1>
-                            <p>Managing Director</p>
-                            <Link className={styles.web_about_section_five_card_content_link} href="#">View Profile</Link>
-                        </div>
-                    </div>
-
-                    <div className={styles.web_about_section_five_card}>
-                        <Image src="/img/img-01.jpg" alt='image' className={styles.web_about_section_five_card_img} width={100} height={100}/>
-                        <div className={styles.web_about_section_five_card_content}>
-                            <h1>Barrack Obama</h1>
-                            <p>Managing Director</p>
-                            <Link className={styles.web_about_section_five_card_content_link} href="#">View Profile</Link>
-                        </div>
-                    </div>
-
-                    <div className={styles.web_about_section_five_card}>
-                        <Image src="/img/img-01.jpg" alt='image' className={styles.web_about_section_five_card_img} width={100} height={100}/>
-                        <div className={styles.web_about_section_five_card_content}>
-                            <h1>Barrack Obama</h1>
-                            <p>Managing Director</p>
-                            <Link className={styles.web_about_section_five_card_content_link} href="#">View Profile</Link>
-                        </div>
-                    </div>
-
-                    <div className={styles.web_about_section_five_card}>
-                        <Image src="/img/img-01.jpg" alt='image' className={styles.web_about_section_five_card_img} width={100} height={100}/>
-                        <div className={styles.web_about_section_five_card_content}>
-                            <h1>Barrack Obama</h1>
-                            <p>Managing Director</p>
-                            <Link className={styles.web_about_section_five_card_content_link} href="#">View Profile</Link>
-                        </div>
-                    </div>
-
-                    <div className={styles.web_about_section_five_card}>
-                        <Image src="/img/img-01.jpg" alt='image' className={styles.web_about_section_five_card_img} width={100} height={100}/>
-                        <div className={styles.web_about_section_five_card_content}>
-                            <h1>Barrack Obama</h1>
-                            <p>Managing Director</p>
-                            <Link className={styles.web_about_section_five_card_content_link} href="#">View Profile</Link>
-                        </div>
-                    </div>
-
-                    <div className={styles.web_about_section_five_card}>
-                        <Image src="/img/img-01.jpg" alt='image' className={styles.web_about_section_five_card_img} width={100} height={100}/>
-                        <div className={styles.web_about_section_five_card_content}>
-                            <h1>Barrack Obama</h1>
-                            <p>Managing Director</p>
-                            <Link className={styles.web_about_section_five_card_content_link} href="#">View Profile</Link>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+           </section>
         </main>
     )
 }

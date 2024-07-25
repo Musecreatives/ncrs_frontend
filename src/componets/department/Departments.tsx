@@ -1,5 +1,5 @@
-import styles from './style.module.css'
-import { ListTag } from "./IconsPalette";
+import styles from './styles.module.css'
+import { ListTag } from "../IconsPalette";
 
 
 export default function Departments(){

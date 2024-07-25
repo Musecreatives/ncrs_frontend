@@ -36,8 +36,10 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
+        'webherobg': "url('/img/homepage.png')",
         'mobileherobg': "url('/img/mobile-hero.jpg')",
         'building': "url('/img/bg-02.jpg')",
+        'space': "url('/img/bg-03.jpg')",
         },
         boxShadow:{
           '3xl': '2px 2px 5px 4px #ccc'

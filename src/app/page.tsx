@@ -1,5 +1,6 @@
 import BlogPostSlide from "@/componets/BlogPostSlide";
-import Departments, {WebDepartment} from "@/componets/Departments";
+import BlogSlide from "@/componets/blogSlide/BlogSlide";
+import Departments, {WebDepartment} from "@/componets/department/Departments";
 import Hero, {WebHero} from "@/componets/Hero";
 import { Trend, ListTag, RightArrow } from "@/componets/IconsPalette";
 import KeyLinks, { WebKeyLinks } from "@/componets/KeyLinks";
@@ -21,7 +22,7 @@ export default function Home() {
       <WebDepartment/>
       <Services/>
       <ProgramsSlide/>
-      <BlogPostSlide/>
+      <BlogSlide />
     </main>
   );
 }

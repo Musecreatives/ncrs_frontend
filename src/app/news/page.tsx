@@ -189,6 +189,22 @@ export default function News(){
 
             </div>
         </section>
+        <section className={styles.news_letter}>
+            <div>
+                <h1>Subscribe to Our Newsletter</h1>
+                <p>Subscribe to our newsletter to get quick access to news, opportunities as they become available. Also you can connect with us on our social media pages</p>
+                <div>
+                    <div>
+                        <p>Your Email</p>
+                        <input type="text" />
+                    </div>
+                    <button type='button'></button>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
         </main>
         </>
     )

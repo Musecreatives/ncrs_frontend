@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Footer, { WebFooter } from "@/componets/Footer";
-import Navigation, { WebNavigator } from "../componets/Navigation";
+import Navigation, { WebNavigator } from "../componets/navigation/Navigation";
 
 const poppins = Poppins({
   weight: ['400','500','600','700'],

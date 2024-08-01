@@ -46,7 +46,8 @@ const config: Config = {
         },
       fontFamily:{
         afacad: ['var(--font-afacad)']
-      }
+      },
+      display: ["group-hover"],
     },
   },
   plugins: [],

@@ -1,5 +1,5 @@
 import { Trend, ListTag, RightArrow, List, People, WebTrend } from "@/componets/IconsPalette";
-import styles from './style.module.css'
+import styles from './styles.module.css'
 
 
 export default function KeyLinks(){

@@ -1,0 +1,55 @@
+/* Quote */
+
+.mobile_quote{
+    @apply px-3 slg:px-10 my-10 xlg:hidden 
+}
+
+.mobile_quote_left{
+    @apply w-full flex justify-start
+}
+
+.mobile_quote_right{
+    @apply w-full flex justify-end
+}
+
+.mobile_quote_text{
+    @apply text-[16px] font-[400] px-3
+}
+
+/* Web Qoute */
+
+.web_quote{
+    @apply px-3 h-[50vh] xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-10 gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
+}
+
+.web_quote_img_cover{
+    @apply relative w-[40%] h-full 2xl:h-[80%]
+}
+
+.web_quote_img{
+    @apply w-full h-full object-fill pt-[2rem]
+}
+
+.web_quote_content{
+    @apply w-[60%]
+}
+
+.web_quote_content > h1{
+    @apply text-[36px] font-[700]
+}
+
+.web_quote_text > p{
+    @apply text-[16px] font-[400]
+}
+
+.web_quote_text > p:nth-child(3){
+    @apply mt-10
+}
+
+.web_quote_left{
+    @apply  w-full flex justify-start
+}
+
+.web_quote_right{
+    @apply w-full flex justify-end
+}

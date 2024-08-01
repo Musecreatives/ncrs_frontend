@@ -1,0 +1,40 @@
+/* Hero */
+
+
+.mobile_hero{
+    @apply slg:hidden pt-[6rem] h-[25rem] bg-red-500 bg-mobileherobg bg-cover bg-no-repeat 
+}
+
+.mobile_hero_heading{
+    @apply text-[36px] font-[700] h-full text-center text-white
+}
+
+/* Web Hero */
+
+.web_hero{
+    @apply hidden slg:block relative py-10 overflow-hidden h-[24rem] slg:h-[35rem] xlg-max:h-[100vh] xl:h-[100vh] bg-red-500 bg-webherobg bg-cover
+}
+
+.web_hero_heading{
+    @apply mb-10 px-10 slg:w-[79%]  2xl:w-[45%] absolute slg:top-[25%] xlg:top-[22%] 2xl:left-[5%]  text-white
+}
+
+.web_hero_dash{
+    @apply block bg-[#1C5237] h-[20px] w-[116px]
+}
+
+.web_hero_text_one{
+    @apply text-[38px] font-[300]
+}
+
+.web_hero_text_two{
+    @apply text-[38px] xlg:text-[48px] 2xl:text-[58px] font-[700] capitalize
+}
+
+.web_hero_layer{
+    @apply absolute top-0 w-full h-[100vh] bg-black opacity-[0.45]
+}
+
+.web_hero_text_three{
+    @apply mt-5 text-[21px] font-[500]
+}

@@ -1,6 +1,6 @@
 import Image from "next/image"
-import styles from "./style.module.css"
-import { QuoteLeft, QuoteRight } from "./IconsPalette"
+import styles from "./styles.module.css"
+import { QuoteLeft, QuoteRight } from "../IconsPalette"
 
 export default function Quote(){
     return(
@@ -20,7 +20,9 @@ export default function Quote(){
 export function WebQuote(){
     return(
         <div className={styles.web_quote}>
-            <Image src="/img/img-01.jpg" alt="image" className={styles.web_quote_img} width={100} height={100}/>
+          <div className={styles.web_quote_img_cover}>
+            <Image src="/img/img-01.jpg" alt="image" className={styles.web_quote_img} fill/>
+          </div>
           <div className={styles.web_quote_content}>
             <h1>From the Director General’s Desk</h1>
             <div className={styles.web_quote_text}>

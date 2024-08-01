@@ -19,7 +19,7 @@
 /* Web Qoute */
 
 .web_quote{
-    @apply px-3 h-[47vh] xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-10 gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
+    @apply px-3 h-[47vh] xlg-max:h-[100vh] xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-[4rem] gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
 }
 
 .web_quote_img_cover{
@@ -31,7 +31,7 @@
 }
 
 .web_quote_content{
-    @apply w-[60%]
+    @apply w-[60%] relative
 }
 
 .web_quote_content > h1{
@@ -47,7 +47,7 @@
 }
 
 .web_quote_left_cover{
-    @apply  relative w-[4rem] h-[4rem] flex justify-start
+    @apply relative w-[4rem] h-[4rem] flex justify-start
 }
 
 .web_quote_left{
@@ -55,7 +55,7 @@
 }
 
 .web_quote_right_cover{
-    @apply relative w-[4rem] h-[4rem] ml-auto
+    @apply absolute right-0 w-[4rem] h-[4rem] ml-auto
 }
 
 .web_quote_right{
@@ -64,5 +64,9 @@
 
 
 .quote_name_bottom > h1{
-    @apply text-[20px] font-[700] text-[#000000]
+    @apply text-[24px] font-[700] text-[#000000]
+}
+
+.quote_link{
+    @apply block text-[#FFFFFF] bg-[#1C5237] rounded-[5px] text-center w-[185px] py-[10px]
 }

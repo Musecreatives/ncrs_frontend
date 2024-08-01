@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import styles from "./styles.module.css"
 import { QuoteLeft, QuoteRight } from "../IconsPalette"
 
@@ -31,14 +32,16 @@ export function WebQuote(){
               </div>
               <p>I stand before you honoured to assume the sacred mandate you have given me. My love for this nation is abiding. My confidence in its people, unwavering. And my faith in God Almighty, absolute. I know that His hand shall provide the needed moral strength and clarity of purpose in those instances when we seem to have reached the limits of our human capacity.</p>
               <p>The project aims to design and develop a comprehensive website for the National Center for Remote Sensing (NCRS) along with a consultancy subdomain. The scope includes the creation of various pages, integration</p>
+              
               <div className={styles.web_quote_right_cover}>
                 <Image src='/img/quote_right.png' alt='image' className={styles.web_quote_right} fill/>
               </div>
+
               <div className={styles.quote_name_bottom}>
                 <h1>Dr. David Nyomo Jeb</h1>
                 <h1>Director/CE</h1>
               </div>
-              
+              <Link className={styles.quote_link} href="#">Learn More</Link>
             </div>
           </div>
         </div>

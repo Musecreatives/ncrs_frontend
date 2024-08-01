@@ -30,11 +30,11 @@
 }
 
 .web_department_card{
-    @apply flex justify-between items-center 2xl:w-[90%] h-[183px] py-[24px] px-[2rem] xlg-max:px-[1rem] rounded-[15px] shadow-3xl
+    @apply flex justify-between items-center 2xl:w-[90%] h-[183px] py-[24px] px-[23px] xlg-max:px-[0.5rem] rounded-[15px] shadow-3xl
 }
 
 .web_department_card > p{
-    @apply text-[24px] xlg-max:text-[20px] xlg-max:w-[70%] font-[700] text-[#1C5237]
+    @apply text-[18px] xlg-max:text-[18px] xlg-max:w-[70%] font-[700] text-[#1C5237]
 }
 
 .web_department_card_icon{

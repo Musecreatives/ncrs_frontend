@@ -1,10 +1,10 @@
-import styles from './style.module.css'
+import styles from './styles.module.css'
 
 export default function Services(){
     return(
         <div className={styles.services}>
             <span className={styles.services_line}></span>
-            <h1 className={styles.services_heading}>SERVICES</h1>
+            <h1 className={styles.services_heading}>What we do??</h1>
             <div className={styles.service}>
                 <p>Satellite Data Services</p>
                 <p>Forestry and Environment</p>

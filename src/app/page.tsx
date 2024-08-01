@@ -7,7 +7,7 @@ import KeyLinks, { WebKeyLinks } from "@/componets/keylinks/KeyLinks";
 import NewsLetter from "@/componets/newsletter/NewsLetter";
 import ProgramsSlide from "@/componets/ProgramsSlide";
 import Quote, { WebQuote } from "@/componets/quote/Quote";
-import Services from "@/componets/Services";
+import Services from "@/componets/services/Services";
 
 
 export default function Home() {

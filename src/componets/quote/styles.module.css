@@ -19,7 +19,7 @@
 /* Web Qoute */
 
 .web_quote{
-    @apply px-3 h-[47vh] xlg-max:h-[100vh] xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-[4rem] gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
+    @apply px-3 h-[45vh] xlg-max:h-[100vh] xl:px-10 xl:h-[65vh] 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-[4rem] gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
 }
 
 .web_quote_img_cover{
@@ -38,12 +38,16 @@
     @apply text-[36px] font-[700]
 }
 
+.web_quote_text{
+    @apply xl:pr-[4rem]
+}
+
 .web_quote_text > p{
     @apply text-[18px] font-[400]
 }
 
 .web_quote_text > p:nth-child(3){
-    @apply mt-10
+    @apply mt-3
 }
 
 .web_quote_left_cover{

@@ -1,7 +1,7 @@
 /* Quote */
 
 .mobile_quote{
-    @apply px-3 slg:px-10 my-10 xlg:hidden 
+    @apply px-3 slg:px-10 my-10 xlg:hidden
 }
 
 .mobile_quote_left{
@@ -19,7 +19,7 @@
 /* Web Qoute */
 
 .web_quote{
-    @apply px-3 h-[50vh] xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-10 gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
+    @apply px-3 h-[47vh] xl:px-10 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-10 gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
 }
 
 .web_quote_img_cover{
@@ -39,17 +39,30 @@
 }
 
 .web_quote_text > p{
-    @apply text-[16px] font-[400]
+    @apply text-[18px] font-[400]
 }
 
 .web_quote_text > p:nth-child(3){
     @apply mt-10
 }
 
+.web_quote_left_cover{
+    @apply  relative w-[4rem] h-[4rem] flex justify-start
+}
+
 .web_quote_left{
-    @apply  w-full flex justify-start
+    @apply  h-full w-full object-fill
+}
+
+.web_quote_right_cover{
+    @apply relative w-[4rem] h-[4rem] ml-auto
 }
 
 .web_quote_right{
-    @apply w-full flex justify-end
+    @apply  h-full w-full object-fill
+}
+
+
+.quote_name_bottom > h1{
+    @apply text-[20px] font-[700] text-[#000000]
 }

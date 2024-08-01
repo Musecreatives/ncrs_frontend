@@ -67,7 +67,7 @@ export function WebNavigator(){
           <p className={`${styles.link_arrow} ${styles.web_link}`}>Media<Arrow iconStyle={styles.nav_arrow}/></p>
           <div className={styles.about_dropdown}>
             <Link href="/news" className={styles.about_dropdown_link}>News</Link>
-            <Link href="" className={styles.about_dropdown_link}>Our Background</Link>
+            <Link href="" className={styles.about_dropdown_link}>Gallery</Link>
           </div>
         </div>
       <Link className={styles.web_link} href='#'>GeoSmart Digital</Link>

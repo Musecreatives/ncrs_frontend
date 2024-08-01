@@ -54,9 +54,9 @@ export function List({iconStyle}:Props){
     )
 }
 
-export function QuoteLeft({iconStyle}:Props){
+export function QuoteLeft(){
     return(
-        <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className={iconStyle}>
+        <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="72" height="72" fill="url(#pattern0_621_771)"/>
             <defs>
                 <pattern id="pattern0_621_771" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -68,9 +68,9 @@ export function QuoteLeft({iconStyle}:Props){
     )
 }
 
-export function QuoteRight({iconStyle}:Props){
+export function QuoteRight(){
     return(
-        <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className={iconStyle}>
+        <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <rect width="73" height="73" fill="url(#pattern0_621_772)"/>
             <defs>
                 <pattern id="pattern0_621_772" patternContentUnits="objectBoundingBox" width="1" height="1">

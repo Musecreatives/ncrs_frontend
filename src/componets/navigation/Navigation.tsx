@@ -46,7 +46,7 @@ export function WebNavigator(){
         <p className={`${styles.link_arrow} ${styles.web_link}`}>About <span className={styles.about_span}>NCRS</span> <Arrow iconStyle={styles.nav_arrow}/></p>
         <div className={styles.about_dropdown}>
           <Link href="/about" className={styles.about_dropdown_link}>About Us</Link>
-          <Link href="" className={styles.about_dropdown_link}>Our Background</Link>
+          <Link href="/background" className={styles.about_dropdown_link}>Our Background</Link>
           <Link href="/mandate" className={styles.about_dropdown_link}>Our Mandate</Link>
           <Link href="/departments" className={styles.about_dropdown_link}>Departments</Link>
           <Link href="" className={styles.about_dropdown_link}>Management Team</Link>
@@ -87,7 +87,7 @@ export function MobileMenu(){
       <Link href="#" className={styles.mobliemenu_link}>Departments</Link>
       <Link href="#" className={styles.mobliemenu_link}>Programs</Link>
       <Link href="#" className={styles.mobliemenu_link}>News</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Our background</Link>
+      <Link href="/background" className={styles.mobliemenu_link}>Our background</Link>
       <Link href="#" className={styles.mobliemenu_link}>Mandate</Link>
       <Link href="#" className={styles.mobliemenu_link}>Laboratries</Link>
       <Link href="#" className={styles.mobliemenu_link}>Services</Link>

@@ -2,11 +2,11 @@
 /* Footer */
 
 .footer{
-    @apply  text-white  pt-10 pb-5 slg:hidden
+    @apply bg-[#FFF] text-white  pb-5 slg:hidden
 }
 
 .footer_content{
-    @apply px-[34px] bg-black
+    @apply px-[34px] pt-10 bg-black
 }
 
 .footer_heading{

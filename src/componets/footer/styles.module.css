@@ -1,12 +1,12 @@
 
-
-
-
-
 /* Footer */
 
 .footer{
-    @apply bg-black text-white px-[34px] pt-10 pb-5 slg:hidden
+    @apply  text-white  pt-10 pb-5 slg:hidden
+}
+
+.footer_content{
+    @apply px-[34px] bg-black
 }
 
 .footer_heading{
@@ -69,14 +69,42 @@
     @apply font-[400] text-[16px] my-3
 }
 
+.footer_section_six{
+    @apply w-full relative pb-[3rem] mt-[4rem]
+}
+
+.footer_circle{
+    @apply w-[72px] h-[72px] absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] bg-[#000] rounded-full
+}
+
+.footer_line{
+    @apply w-full h-[1px] bg-[#FFFFFF]
+}
+
+.footer_copyright{
+    @apply text-[#000000] text-center pt-[0.5rem]
+}
+
+.footer_copyright > h1{
+    @apply text-[12px] font-[700]
+}
+
+.footer_copyright > h1 > span{
+    @apply font-[400]
+}
+
+.footer_copyright > p{
+    @apply text-[12px] font-[500]
+}
+
 /* web footer */
 
 .web_footer{
-    @apply hidden slg:block bg-[#191D1F] text-[#FFF] py-10 px-10 xlg:px-5
+    @apply hidden slg:block  text-[#FFF]
 }
 
 .web_footer_cover{
-    @apply grid grid-cols-2 xlg:grid-cols-4 gap-5
+    @apply  grid grid-cols-2 xlg:grid-cols-4 gap-5
 }
 
 .web_footer_subsidiaries{
@@ -156,46 +184,34 @@
 }
 
 
-
-
-
-
-
-/* programs */
-
-.programs{
-    @apply overflow-hidden px-3 my-[6rem]
+.web_footer_circle_line{
+    @apply w-full relative pb-[1rem] mt-[4rem]
 }
 
-.programs_heading{
-    @apply text-[20px] slg:text-[40px] font-[500] text-center 
+.web_footer_circle{
+    @apply w-[72px] h-[72px] absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] bg-[#191D1F] rounded-full
 }
 
-
-.programs_cards{
-    @apply w-[100%] 2xl:w-[80%] relative flex items-center justify-evenly gap-x-5 overflow-hidden mt-5 mx-[auto] 
+.web_footer_line{
+    @apply w-full h-[1px] bg-[#FFFFFF]
 }
 
-.programs_card{
-    @apply w-[100%] slg:w-[50%] xlg-min:w-[33%] 2xl:w-[33%] xl:w-[40%] h-full rounded-[15px] pb-5 shadow-lg shadow-[#00000040] my-5 flex-[0_0_auto]
+.web_footer_copyright{
+    @apply text-[#000000] text-center py-[2rem]
 }
 
-.programs_card_banner{
-    @apply w-full rounded-[15px] 
+.web_footer_copyright > h1{
+    @apply text-[19px] xl:text-[22px] font-[700]
 }
 
-.programs_card_content{
-    @apply w-full px-3 mt-5
+.web_footer_copyright > h1 > span{
+    @apply font-[400]
 }
 
-.programs_card_content > p{
-    @apply text-[18px] font-[700] text-[#D52027]
+.web_footer_copyright > p{
+    @apply text-[19px] xl:text-[22px] font-[500]
 }
 
-.programs_card_content_link_cover{
-    @apply w-full flex justify-end items-center my-2
-}
-
-.programs_card_content_link{
-    @apply w-[117px] h-[43px] pt-3 text-center block rounded-[18px] bg-[#1C5237] text-[#FFFF]
+.web_footer_content_cover{
+    @apply bg-[#191D1F] px-10 py-10  xlg:px-5 2xl:px-[10rem]
 }

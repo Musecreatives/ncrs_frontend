@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Footer, { WebFooter } from "@/componets/Footer";
+import Footer, { WebFooter } from "@/componets/footer/Footer";
 import Navigation, { WebNavigator } from "../componets/navigation/Navigation";
 
 const poppins = Poppins({

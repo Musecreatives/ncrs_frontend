@@ -6,6 +6,7 @@ import { QuoteLeft, QuoteRight } from "../IconsPalette"
 export default function Quote(){
     return(
         <div className={styles.mobile_quote}> 
+        <h1>From the Director General’s Desk</h1>
         <div className={styles.mobile_quote_left}>
          <QuoteLeft/>
         </div>
@@ -25,7 +26,7 @@ export function WebQuote(){
             <Image src="/img/img-01.jpg" alt="image" className={styles.web_quote_img} fill/>
           </div>
           <div className={styles.web_quote_content}>
-            <h1>From the Director General’s Desk</h1>
+            <h1>From the Desk of the Director/CE</h1>
             <div className={styles.web_quote_text}>
               <div className={styles.web_quote_left_cover}>
                 <Image src='/img/quote_left.png' alt='image' className={styles.web_quote_left} fill/>

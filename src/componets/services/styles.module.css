@@ -1,7 +1,11 @@
 /* services */
 
 .services{
-    @apply hidden xlg:block bg-[#1C5237] px-[2rem] py-[5rem] text-[#FFFF]
+    @apply hidden xlg:block bg-[#1C5237] px-[2rem] py-[8rem] text-[#FFFF]
+}
+
+.services_cover{
+    @apply 2xl:w-[90%] mx-auto
 }
 
 .services_line{
@@ -13,7 +17,7 @@
 }
 
 .service{
-    @apply grid grid-cols-4 mt-10 gap-5
+    @apply grid grid-cols-4 mt-10 gap-[4rem]
 }
 
 .service > p{

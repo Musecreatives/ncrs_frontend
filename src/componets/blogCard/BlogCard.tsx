@@ -23,7 +23,7 @@ export default function BlogCard({img,heading,author,date,slug,}:BlogCardProps){
             <p>{author}</p>
             <p>{date}</p>
             </div>
-            <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
+            <h1 className={styles.blog_post_slide_card_heading}>{heading}</h1>
             <Link href={slug} className={styles.blog_post_slide_card_link}>
                 <p>Continue Reading</p>
                 <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>

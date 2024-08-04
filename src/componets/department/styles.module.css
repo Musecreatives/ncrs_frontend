@@ -30,7 +30,7 @@
 }
 
 .web_department_card{
-    @apply flex justify-between items-center 2xl:w-[90%] h-[183px] py-[24px] px-[23px] xlg-max:px-[0.5rem] rounded-[15px] shadow-3xl
+    @apply flex justify-center items-center 2xl:w-[90%] h-[183px] py-[24px] px-[23px] xlg-max:px-[0.5rem] rounded-[15px] shadow-3xl
 }
 
 .web_department_card > p{

@@ -27,7 +27,7 @@
 }
 
 .web_quote_img{
-    @apply w-full h-full object-fill pt-[2rem]
+    @apply w-full h-full object-fill
 }
 
 .web_quote_content{
@@ -39,7 +39,7 @@
 }
 
 .web_quote_text{
-    @apply xl:pr-[4rem]
+    @apply xl:pr-[4rem] 
 }
 
 .web_quote_text > p{

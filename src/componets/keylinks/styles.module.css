@@ -45,15 +45,19 @@
 }
 
 .web_key_links_heading{
-    @apply text-[40px] font-[700] text-[#000000] text-center
+    @apply text-[40px] font-[700] text-[#000000] text-center 
+}
+
+.outer_card{
+    @apply overflow-hidden cursor-grab
 }
 
 .web_link_key_cards{
-    @apply grid grid-cols-2 xlg:grid-cols-3 gap-5 mt-10
+    @apply flex justify-evenly items-stretch gap-x-10 mt-10 xl:mx-auto py-[2rem] px-[1rem] 
 }
 
 .web_link_key_card{
-    @apply w-full relative overflow-hidden shadow-3xl rounded-[15px] p-5
+    @apply min-w-[382px] relative overflow-hidden shadow-3xl rounded-[15px] p-5
 }
 
 .web_key_links_card_heading{
@@ -61,7 +65,7 @@
 }
 
 .web_key_links_card_content{
-    @apply flex justify-between items-center my-5
+    @apply flex justify-center items-center my-5
 }
 
 .web_key_links_card_content >p{

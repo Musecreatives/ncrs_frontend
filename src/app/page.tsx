@@ -5,7 +5,7 @@ import Hero, {WebHero} from "@/componets/hero/Hero";
 import { Trend, ListTag, RightArrow } from "@/componets/IconsPalette";
 import KeyLinks, { WebKeyLinks } from "@/componets/keylinks/KeyLinks";
 import NewsLetter from "@/componets/newsletter/NewsLetter";
-import ProgramsSlide from "@/componets/ProgramsSlide";
+import ProgramsSlide from "@/componets/research/ProgramsSlide";
 import Quote, { WebQuote } from "@/componets/quote/Quote";
 import Services from "@/componets/services/Services";
 

@@ -1,5 +1,5 @@
 "use client"
-import { Trend, ListTag, RightArrow, List, People, WebTrend } from "@/componets/IconsPalette";
+import { Trend, ListTag, Analytics, List, People, WebTrend } from "@/componets/IconsPalette";
 import styles from './styles.module.css'
 import {motion} from "framer-motion"
 import {useRef, useEffect, useState} from "react"
@@ -113,7 +113,7 @@ export function WebKeyLinks(){
                 <div className={styles.web_link_key_card}>
                     <p className={styles.web_key_links_card_heading}>Leadership</p>
                     <div className={styles.web_key_links_card_content}>
-                        <People iconStyle={styles.web_key_links_card_icon}/>
+                        <Analytics iconStyle={styles.web_key_links_card_icon}/>
                         <p>Meet our Directors</p>
                     </div>
                     <span className={styles.web_key_link_container_bottom_clip}></span>

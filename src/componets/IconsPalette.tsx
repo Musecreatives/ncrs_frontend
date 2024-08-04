@@ -132,3 +132,11 @@ export function LinkedIn({iconStyle}:Props){
         
     )
 }
+
+export function Analytics({iconStyle}:Props){
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="58" height="53" className={iconStyle} viewBox="0 0 58 53" fill="none">
+            <path d="M15.8125 52.5H0V17.5H15.8125V52.5ZM36.6562 0H20.8438V52.5H36.6562V0ZM57.5 23.3333H41.6875V52.5H57.5V23.3333Z" fill="black"/>
+        </svg>
+    )
+}

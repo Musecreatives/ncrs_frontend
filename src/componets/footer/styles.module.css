@@ -69,7 +69,7 @@
     @apply font-[400] text-[16px] my-3
 }
 
-.footer_section_six{
+.footer_circle_line{
     @apply w-full relative pb-[3rem] mt-[4rem]
 }
 

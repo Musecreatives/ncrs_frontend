@@ -43,12 +43,12 @@ export default function Footer(){
                     <p>Phone 2: +234 810 459 7908</p>
                     <p>Email: info@NCRS.gov.ng</p>
                 </div>
-                <div className={styles.web_footer_circle_line}>
-                    <div className={styles.web_footer_circle}></div>
-                    <div className={styles.web_footer_line}></div>
+                <div className={styles.footer_circle_line}>
+                    <div className={styles.footer_circle}></div>
+                    <div className={styles.footer_line}></div>
                 </div>
             </div>
-            <div className={styles.web_footer_copyright}>
+            <div className={styles.footer_copyright}>
                     <h1>© National Centre Remote Sensing <span>2024</span>. </h1>
                     <p>All Rights Reserved. Terms of Use and Privacy Policy</p>
             </div>

@@ -32,11 +32,11 @@
 }
 
 .about_dropdown{
-    @apply absolute bg-[#1C5237] p-[1rem] hidden
+    @apply w-[195px] absolute bg-[#1C5237] p-[1rem] hidden
 }
 
 .about_dropdown_link{
-    @apply text-left text-[#FFF] text-[16px] font-[400] my-[0.2rem] block
+    @apply text-left text-[#FFF] text-[16px] font-[400] my-[0.7rem] block
 }
 
 .about_span{

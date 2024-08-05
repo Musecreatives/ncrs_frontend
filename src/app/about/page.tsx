@@ -23,16 +23,18 @@ export default function about(){
             </section>
 
             <section className={styles.section_two}>
-                <div className={styles.section_two_content_line}></div>
-                <h1>About NCRS</h1>
-                <div className={styles.section_two_content_cover}>
-                    <div className={styles.section_two_content}>
-                        <article>
-                            <p>The National Centre for Remote Sensing (NCRS), Jos is a parastatal of the Federal Ministry of Science and Technology and one of the six development centres of excellence under the National Space Research and Development Agency(NASRDA),Abuja. As a pivotal entity within the Nigerian government’s scientific and technological framework, the Centre plays a crucial role in the nation’s space research and development initiatives. Its primary focus is on harnessing advanced remote sensing technologies to drive innovation, enhance scientific research, and support sustainable development across various sectors. The Centre contributes significantly to the advancement of space science, environmental monitoring, natural resource management, and disaster management. By collaborating with local and international stakeholders, the centre aims to foster a robust scientific community, promote capacity building, and facilitate the application of remote sensing and related technologies in addressing contemporary challenges and opportunities</p>
-                        </article>
-                    </div>
-                    <div className={styles.section_two_banner_cover}>
-                        <Image src="/img/about-card-image.jpeg" alt='image' className={styles.section_two_banner} fill/>
+                <div className={styles.section_two_container}>
+                    <div className={styles.section_two_content_line}></div>
+                    <h1>About NCRS</h1>
+                    <div className={styles.section_two_content_cover}>
+                        <div className={styles.section_two_content}>
+                            <article>
+                                <p>The National Centre for Remote Sensing (NCRS), Jos is a parastatal of the Federal Ministry of Science and Technology and one of the six development centres of excellence under the National Space Research and Development Agency(NASRDA),Abuja.As a pivotal entity within the Nigerian government’s scientific and technological framework, the Centre plays a crucial role in the nation’s space research and development initiatives. Its primary focus is on harnessing advanced remote sensing technologies to drive innovation, enhance scientific research, and support sustainable development across various sectors.The Centre contributes significantly to the advancement of space science, environmental monitoring, natural resource management, and disaster management. By collaborating with local and international stakeholders, the centre aims to foster a robust scientific community, promote capacity building, and facilitate the application of remote sensing and related technologies in addressing contemporary challenges and opportunities</p>
+                            </article>
+                        </div>
+                        <div className={styles.section_two_banner_cover}>
+                            <Image src="/img/about-card-image.jpeg" alt='image' className={styles.section_two_banner} fill/>
+                        </div>
                     </div>
                 </div>
             </section>

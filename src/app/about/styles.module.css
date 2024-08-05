@@ -51,19 +51,23 @@
     @apply  px-5 my-[3rem] xl:px-[5rem] 2xl:px-[10rem]
 }
 
+.section_two_container{
+    @apply slg:w-[90%] xl:w-[95%] 2xl:w-[80%]  mx-auto 
+}
+
 .section_two_content_cover{
-    @apply flex flex-col slg:flex-row justify-between items-start gap-x-5
+    @apply flex flex-col slg:flex-col-reverse xlg-max:flex-row xl:flex-row justify-between items-start gap-x-5
 }
 
 .section_two_content{
-    @apply w-full slg:w-[70%] xl:w-[50%]
+    @apply w-full slg:w-full xl:w-[50%]
 }
 
 .section_two_content_line{
     @apply w-[117px] h-[3px] bg-[#000] mb-5
 }
 
-.section_two > h1{
+.section_two_container > h1{
     @apply text-[36px] font-[700]
 }
 
@@ -72,7 +76,8 @@
 }
 
 .section_two_banner_cover{
-    @apply relative w-[474px] 2xl:w-[50%] h-[563px] xlg-max:h-[463px] rounded-[15px]  hidden slg:block
+    @apply relative w-[474px] slg:w-full xl:w-[50%] slg:h-[453px] h-[563px] xlg-max:h-[563px] 
+    rounded-[15px]  hidden slg:block
 }
 
 .section_two_banner{
@@ -91,7 +96,7 @@
     @apply w-full grid grid-cols-2 slg:grid-cols-3 xlg-max:grid-cols-4 xl:grid-cols-4 gap-x-5
 }
 .section_three_card{
-    @apply w-full h-[150px] my-[2rem]
+    @apply w-full h-[230px] my-[2rem]
 }
 .section_three_card_banner_cover{
     @apply relative h-full w-full
@@ -118,17 +123,21 @@
 }
 
 .section_four_card{
-    @apply w-full
+    @apply w-full xl:w-[70%]
 }
 
 .section_four_card > h1{
     @apply text-[28px] font-[500] text-[#000]
 }
 
+.section_four_card > article{
+    @apply h-[250px] p-[2rem]
+}
+
 .section_four_card:nth-child(1) > article{
-    @apply bg-[#EEEEED] p-[2rem] text-[16px] font-[500]
+    @apply bg-[#EEEEED]  text-[16px] font-[500] 
 }
 
 .section_four_card:nth-child(2) > article{
-    @apply bg-[#1C5237] p-[2rem] text-[#FFF] text-[16px]
+    @apply bg-[#1C5237] text-[#FFF] text-[16px]
 }

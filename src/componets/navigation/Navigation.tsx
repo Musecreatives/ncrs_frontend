@@ -49,17 +49,17 @@ export function WebNavigator(){
           <Link href="/background" className={styles.about_dropdown_link}>Our Background</Link>
           <Link href="/mandate" className={styles.about_dropdown_link}>Our Mandate</Link>
           <Link href="/departments" className={styles.about_dropdown_link}>Departments</Link>
-          <Link href="" className={styles.about_dropdown_link}>Management Team</Link>
-          <Link href="" className={styles.about_dropdown_link}>Organogram</Link>
-          <Link href="" className={styles.about_dropdown_link}>Laboratories</Link>
+          <Link href="/management" className={styles.about_dropdown_link}>Management Team</Link>
+          <Link href="/organogram" className={styles.about_dropdown_link}>Organogram</Link>
+          <Link href="/laboratories" className={styles.about_dropdown_link}>Laboratories</Link>
         </div>
       </div>
 
         <div className={styles.dropdown}>
           <p className={`${styles.link_arrow} ${styles.web_link} group`}>Services <Arrow iconStyle={styles.nav_arrow}/></p>
           <div className={styles.about_dropdown}>
-            <Link href="" className={styles.about_dropdown_link}>Our Services</Link>
-            <Link href="" className={styles.about_dropdown_link}>Downloads</Link>
+            <Link href="/services" className={styles.about_dropdown_link}>Our Services</Link>
+            <Link href="/downloads" className={styles.about_dropdown_link}>Downloads</Link>
           </div>
         </div>
 
@@ -67,11 +67,11 @@ export function WebNavigator(){
           <p className={`${styles.link_arrow} ${styles.web_link}`}>Media<Arrow iconStyle={styles.nav_arrow}/></p>
           <div className={styles.about_dropdown}>
             <Link href="/news" className={styles.about_dropdown_link}>News</Link>
-            <Link href="" className={styles.about_dropdown_link}>Gallery</Link>
+            <Link href="/gallery" className={styles.about_dropdown_link}>Gallery</Link>
           </div>
         </div>
       <Link className={styles.web_link} href='#'>GeoSmart Digital</Link>
-      <Link className={styles.web_link} href='#'>Contact Us</Link>
+      <Link className={styles.web_link} href='/contact'>Contact Us</Link>
       
     </div>
 </div>
@@ -84,17 +84,17 @@ export function MobileMenu(){
     <div className={styles.mobliemenu}>
       <Link href="/" className={styles.mobliemenu_link}>Home</Link>
       <Link href="/about" className={styles.mobliemenu_link}>About us</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Departments</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Programs</Link>
-      <Link href="#" className={styles.mobliemenu_link}>News</Link>
+      <Link href="/departments" className={styles.mobliemenu_link}>Departments</Link>
+      <Link href="/programs" className={styles.mobliemenu_link}>Programs</Link>
+      <Link href="/news" className={styles.mobliemenu_link}>News</Link>
       <Link href="/background" className={styles.mobliemenu_link}>Our background</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Mandate</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Laboratries</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Services</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Downloads</Link>
-      <Link href="#" className={styles.mobliemenu_link}>News</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Gallery</Link>
-      <Link href="#" className={styles.mobliemenu_link}>Organogram</Link>
+      <Link href="/mandate" className={styles.mobliemenu_link}>Mandate</Link>
+      <Link href="/laboratires" className={styles.mobliemenu_link}>Laboratries</Link>
+      <Link href="/services" className={styles.mobliemenu_link}>Services</Link>
+      <Link href="/downloads" className={styles.mobliemenu_link}>Downloads</Link>
+      <Link href="/gallery" className={styles.mobliemenu_link}>Gallery</Link>
+      <Link href="/organogram" className={styles.mobliemenu_link}>Organogram</Link>
+      <Link href="/contact" className={styles.mobliemenu_link}>Contact Us</Link>
     </div>
   )
 }

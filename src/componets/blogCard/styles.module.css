@@ -1,5 +1,9 @@
-.blog_post_slide_card{
+/* .blog_post_slide_card{
     @apply w-[100%] slg:w-[50%] xlg-min:w-[33%] lg:w-[40%] 2xl:w-[30%] xl:w-[35%] flex-[0_0_auto] 2xl:px-[1rem]
+} */
+
+.blog_post_slide_card{
+    @apply w-[100%] mb-[20px] flex-[0_0_auto] 2xl:px-[1rem]
 }
 
 .blog_post_slide_card_banner_cover{

@@ -18,7 +18,11 @@
 /* web department */
 
 .web_department{
-    @apply  hidden xlg:block w-full px-3 xlg-max:w-[95%] xlg-max:mx-auto 2xl:w-[90%] 2xl:mx-auto
+    @apply  hidden xlg:block w-full px-3 xlg-max:mx-auto 2xl:w-[90%] 2xl:mx-auto
+}
+
+.web_department_cover{
+    @apply slg:w-[90%] 2xl:w-full mx-auto
 }
 
 .web_department_heading{
@@ -30,15 +34,15 @@
 }
 
 .web_department_card{
-    @apply flex justify-center items-center 2xl:w-[90%] h-[183px] py-[24px] px-[23px] xlg-max:px-[0.5rem] rounded-[15px] shadow-3xl
+    @apply 2xl:w-[80%] flex justify-evenly items-center gap-x-10 h-[183px] py-[20px] px-[18px] xlg-max:h-[153px] xlg-max:px-[25px] rounded-[15px] shadow-3xl
 }
 
 .web_department_card > p{
-    @apply text-[18px] xlg-max:text-[18px] xlg-max:w-[70%] font-[700] text-[#1C5237]
+    @apply text-[18px] xlg-max:text-[18px] xlg-max:w-[70%] xl:w-[50%] font-[700] text-[#1C5237]
 }
 
 .web_department_card_icon{
-    @apply w-[30%] h-[51px]
+    @apply size-10 xl:size-14
 }
 
 

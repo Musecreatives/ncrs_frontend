@@ -19,11 +19,15 @@
 /* Web Qoute */
 
 .web_quote{
-    @apply px-3 h-[45vh] xlg-max:h-[100vh] xl:px-10 xl:h-[65vh] 2xl:h-[90vh] relative hidden xlg:flex justify-between items-start my-[4rem] gap-x-5 2xl:px-[10rem] 2xl:mt-[10rem]
+    @apply px-3 h-[45vh] xlg-max:h-[100vh] xl:px-10 xl:h-[65vh] 2xl:h-[60vh] relative hidden xlg:block my-[4rem] 2xl:mt-[6rem]
+}
+
+.web_quote_container{
+    @apply w-full xl:w-[95%] 2xl:w-[80%] h-full xlg:flex justify-between items-center mx-auto gap-x-5
 }
 
 .web_quote_img_cover{
-    @apply relative w-[40%] h-full 2xl:h-[80%]
+    @apply relative w-[40%] xl:w-[35%] h-full 2xl:h-[90%]
 }
 
 .web_quote_img{
@@ -31,7 +35,7 @@
 }
 
 .web_quote_content{
-    @apply w-[60%] relative
+    @apply w-[60%] xl:w-[65%] xlg-max:pr-[2rem] xl:pr-[6.3rem] 2xl:pr-[19.2rem] relative
 }
 
 .web_quote_content > h1{
@@ -43,7 +47,7 @@
 }
 
 .web_quote_text > p{
-    @apply text-[18px] font-[400]
+    @apply text-[16px] font-[400] leading-normal
 }
 
 .web_quote_text > p:nth-child(3){
@@ -51,7 +55,7 @@
 }
 
 .web_quote_left_cover{
-    @apply relative w-[4rem] h-[4rem] flex justify-start
+    @apply relative w-[4rem] h-[4rem] xl:w-[6rem] xl:h-[6rem] flex justify-start
 }
 
 .web_quote_left{
@@ -59,7 +63,7 @@
 }
 
 .web_quote_right_cover{
-    @apply absolute right-0 w-[4rem] h-[4rem] ml-auto
+    @apply absolute right-[3rem] 2xl:right-[12rem] w-[4rem] h-[4rem] xl:w-[6rem] xl:h-[6rem] ml-auto
 }
 
 .web_quote_right{

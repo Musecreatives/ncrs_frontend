@@ -39,6 +39,7 @@ const config: Config = {
         'webherobg': "url('/img/homepage.png')",
         'mobileherobg': "url('/img/mobile-hero.jpg')",
         'building': "url('/img/bg-02.jpg')",
+        'bg-03': "url('/img/img-07.jpeg')",
         'space': "url('/img/bg-03.jpg')",
         },
         boxShadow:{

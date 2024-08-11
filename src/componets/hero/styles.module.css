@@ -20,7 +20,7 @@
 }
 
 .web_hero_dash{
-    @apply block bg-[#1C5237] h-[20px] w-[116px]
+    @apply block bg-[#1C5237] h-[18px] w-[120px] mb-[2rem]
 }
 
 .web_hero_text_one{

@@ -46,7 +46,7 @@
 }
 
 .section_two_container{
-    @apply slg:w-[90%] xl:w-[95%] 2xl:w-[90%]  mx-auto 
+    @apply slg:w-[90%] xl:w-[95%] 2xl:w-[80%]  mx-auto 
 }
 
 .section_two_content_cover{
@@ -54,7 +54,7 @@
 }
 
 .section_two_content{
-    @apply w-full slg:w-full xl:w-[50%]
+    @apply w-full slg:w-full xl:w-[50%] 2xl:w-[40%]
 }
 
 .section_two_content_line{
@@ -78,7 +78,7 @@
 }
 
 .section_two_banner_cover{
-    @apply relative w-[474px] slg:w-full xl:w-[50%] slg:h-[453px] h-[563px] xlg-max:h-[423px] xl:h-[400px] 2xl:h-[480px]
+    @apply relative w-[474px] slg:w-full xl:w-[50%] 2xl:w-[40%] slg:h-[453px] h-[563px] xlg-max:h-[423px] xl:h-[400px] 2xl:h-[400px]
     rounded-[15px]  hidden slg:block
 }
 
@@ -87,7 +87,7 @@
 }
 
 .section_three{
-    @apply bg-[#1C5237]  xlg-max:h-[100vh] xl:h-[100vh] 2xl:h-[80vh]
+    @apply bg-[#1C5237]  xlg-max:h-[110vh] xl:h-[80vh] 2xl:h-[80vh]
 }
 
 .section_three_container{
@@ -95,7 +95,7 @@
 }
 
 .section_three_text{
-    @apply py-[3rem] px-[2rem] xl:px-[5rem] xlg-max:w-[50%] xl:w-[50%]
+    @apply py-[3rem] px-[4rem] xl:px-[5rem] xlg-max:w-[60%] xl:w-[60%] 2xl:w-[50%] leading-normal
 }
 
 .section_three_text > ul{
@@ -103,11 +103,11 @@
 }
 
 .section_three_text > ul > li{
-    @apply text-[#FFFFFF] text-[15px] my-[5px]
+    @apply text-[#FFFFFF] text-[15px] xlg:text-[20px] my-[5px] 2xl:my-[15px]
 }
 
 .section_three_banner_cover{
-    @apply relative hidden xlg-max:block xl:block xlg-max:w-[50%] xl:w-[50%] h-full
+    @apply relative hidden xlg-max:block xl:block xlg-max:w-[40%] xl:w-[40%] h-full
 }
 
 .section_three_banner{

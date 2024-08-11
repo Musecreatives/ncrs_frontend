@@ -3,208 +3,51 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 import { RightArrow } from '@/componets/IconsPalette'
 import BlogPostSlide from '@/componets/BlogPostSlide'
+import NewsLetter from '@/componets/newsletter/NewsLetter'
+import BlogCard from '@/componets/blogCard/BlogCard'
+import {allPosts} from '../../../data'
 
 export default function News(){
     return(
         <>
         <main className={styles.news}>
-            <section className={styles.web_news_hero}>
-                <div className={styles.web_news_hero_layer}></div>
-                <div className={styles.web_news_hero_content}>
-                    <p>Home / <span>Media</span></p>
-                    <div className={styles.web_news_hero_content_sub}>
-                        <h1>Latest News & Updates</h1>
+        <section className={styles.hero}>
+                <div className={styles.hero_layer}></div>
+                <div className={styles.hero_content}>
+                    <p className={styles.heading_one}>Home / <span>Media</span></p>
+                    {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
+                    <div className={styles.hero_title_page}>
+                        <div className={styles.title_cover}>
+                            <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
+                        </div>
+                        <div className={styles.page_cover}>
+                            <h1 className={styles.page}>Latest News & Updates</h1>
+                        </div>
                     </div>
                 </div>
             </section>
         <section>
-            <div className={styles.blog_post_slide}>
-                <h1 className={styles.blog_post_slide_heading}>Recent Blog posts and <span>Publications</span></h1>
+        <div className={styles.blog_post_slide}>
+            <div className={styles.blog_post_slide_cards_outer}>
                 <div className={styles.blog_post_slide_cards}>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
+                    {
+                    Array.isArray(allPosts) ? 
+                    allPosts.map((post, index) =>(
+                        <BlogCard
+                        key={index} 
+                        img={post.img} 
+                        heading={post.heading} 
+                        author={post.author} 
+                        date={post.date} 
+                        slug={post.slug} />
+                    )):
+                    <div></div>
+                    }
                 </div>
-                
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-
-                </div>
-
-
-                    <div className={styles.blog_post_slide_cards}>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-                <div className={styles.blog_post_slide_card}>
-                    <Image src="/img/slide-01.jpg" alt="image" className={styles.blog_post_slide_card_banner} width={100} height={100}/>
-                    <div className={styles.blog_post_slide_card_content_one}>
-                    <p>John Doe</p>
-                    <p>5/15/24</p>
-                    </div>
-                    <h1 className={styles.blog_post_slide_card_heading}>Collaboration of NITDA WITH NSRDA</h1>
-                    <Link href="#" className={styles.blog_post_slide_card_link}>
-                        <p>Continue Reading</p>
-                        <RightArrow iconStyle={styles.blog_post_slide_card_arrow}/>
-                    </Link>
-                </div>
-
-
             </div>
-
-            </div>
+      </div>
         </section>
-        <section className={styles.news_letter}>
-            <div>
-                <h1>Subscribe to Our Newsletter</h1>
-                <p>Subscribe to our newsletter to get quick access to news, opportunities as they become available. Also you can connect with us on our social media pages</p>
-                <div>
-                    <div>
-                        <p>Your Email</p>
-                        <input type="text" />
-                    </div>
-                    <button type='button'></button>
-                </div>
-                <div>
-                    
-                </div>
-            </div>
-        </section>
+        <NewsLetter />
         </main>
         </>
     )

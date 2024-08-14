@@ -1,5 +1,3 @@
-
-
 export default function DepartmentLayout({children}:Readonly<{
     children: React.ReactNode;
 }>){

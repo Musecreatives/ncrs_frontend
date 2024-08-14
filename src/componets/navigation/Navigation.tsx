@@ -89,7 +89,7 @@ export function MobileMenu(){
       <Link href="/news" className={styles.mobliemenu_link}>News</Link>
       <Link href="/background" className={styles.mobliemenu_link}>Our background</Link>
       <Link href="/mandate" className={styles.mobliemenu_link}>Mandate</Link>
-      <Link href="/laboratires" className={styles.mobliemenu_link}>Laboratries</Link>
+      <Link href="/laboratories" className={styles.mobliemenu_link}>Laboratries</Link>
       <Link href="/services" className={styles.mobliemenu_link}>Services</Link>
       <Link href="/downloads" className={styles.mobliemenu_link}>Downloads</Link>
       <Link href="/gallery" className={styles.mobliemenu_link}>Gallery</Link>

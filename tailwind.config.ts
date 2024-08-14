@@ -43,7 +43,9 @@ const config: Config = {
         'space': "url('/img/bg-03.jpg')",
         },
         boxShadow:{
-          '3xl': '2px 2px 5px 4px #ccc'
+          '3xl': '2px 2px 5px 4px #ccc',
+          '4xl': '2px 2px 5px 1px #191D1F',
+          '5xl': '0px 4px 4px 0px rgba(0, 0, 0, 0.25);'
         },
       fontFamily:{
         afacad: ['var(--font-afacad)']

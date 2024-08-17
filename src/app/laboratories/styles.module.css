@@ -63,7 +63,7 @@
 }
 
 .section_two_card{
-    @apply h-[150px] xlg:h-[200px] bg-[#FFFFFF] flex justify-between items-center my-[1rem] py-[24px] px-[23px] rounded-[15px] gap-x-5 shadow-4xl
+    @apply h-[150px] xlg:h-[200px] cursor-pointer bg-[#FFFFFF] flex justify-between items-center my-[1rem] py-[24px] px-[23px] rounded-[15px] gap-x-5 shadow-4xl
 }
 
 .section_two_card_icon_cover{

@@ -12,7 +12,7 @@
 /* Web Hero */
 
 .web_hero{
-    @apply hidden slg:block relative py-10 overflow-hidden h-[24rem] slg:h-[35rem] xlg-max:h-[100vh] xl:h-[100vh] bg-red-500 bg-webherobg bg-cover
+    @apply hidden slg:block relative py-10 overflow-hidden h-[24rem] slg:h-[35rem] xlg-max:h-[100vh] xl:h-[90vh] bg-webherobg bg-cover
 }
 
 .web_hero_heading{
@@ -20,7 +20,7 @@
 }
 
 .web_hero_dash{
-    @apply block bg-[#1C5237] h-[18px] w-[120px] mb-[2rem]
+    @apply block bg-[#1C5237] h-[15px] w-[120px] mb-[2rem]
 }
 
 .web_hero_text_one{
@@ -32,7 +32,7 @@
 }
 
 .web_hero_layer{
-    @apply absolute top-0 w-full h-[100vh] bg-black opacity-[0.45]
+    @apply absolute top-0 w-full h-[100vh] bg-[#0000005C]
 }
 
 .web_hero_text_three{

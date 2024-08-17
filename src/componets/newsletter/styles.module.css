@@ -3,12 +3,16 @@
     @apply bg-[#1C5237] py-5 xlg:py-[3rem] xl:py-[5rem] px-3 slg:px-[3rem] 2xl:px-[10rem] text-[#FFF]
 }
 
+.container{
+    @apply 2xl:w-[80%] mx-auto
+}
+
 .newsletter_heading{
     @apply text-[22px] font-[600] slg:text-left slg:text-[38px] xlg:text-[48px] text-center
 }
 
 .newsletter_paragraph{
-    @apply text-[14px] slg:text-[16px] xlg:text-[18px] font-[400] text-center slg:text-left my-[0.2rem]
+    @apply text-[14px] slg:text-[16px] font-[400] text-center slg:text-left my-[0.2rem]
 }
 
 .newsletter_form{

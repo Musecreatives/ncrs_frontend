@@ -8,20 +8,22 @@ export default function Footer(){
                 <h1 className={styles.footer_heading}>Subsidiaries</h1>
                 <p className={styles.footer_consultancy}>consultancy.ncrs.gov.ng</p>
                 <div className={styles.footer_section_one}>
-                    <h1>Zonal Offices</h1>
-                    <p>Port Harcourt</p>
-                    <p>Gombe</p>
-                    <p>Benin</p>
-                    <p>Lagos</p>
+                    <h1>Zonal Laboratories</h1>
+                    <Link href="/laboratories/corporative-Information-network">COPINE</Link>
+                    <Link href="/laboratories/avanced-space-technology-application-laboratory-uyo">Uyo</Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kashere">Kashere</Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kano">Kano</Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki">Abakiliki</Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-langtang">Lantang</Link>
                 </div>
                 <div className={styles.footer_section_two}>
                     <h1>Quick Links</h1>
-                    <Link href="#" className={styles.footer_section_two_link}>About Us</Link>
-                    <Link href="#" className={styles.footer_section_two_link}>Services</Link>
+                    <Link href="/about" className={styles.footer_section_two_link}>About Us</Link>
+                    <Link href="/services" className={styles.footer_section_two_link}>Services</Link>
                     <Link href="#" className={styles.footer_section_two_link}>Recent Programs</Link>
-                    <Link href="#" className={styles.footer_section_two_link}>News</Link>
-                    <Link href="#" className={styles.footer_section_two_link}>Contact Us</Link>
-                    <Link href="#" className={styles.footer_section_two_link}>Consultancy</Link>
+                    <Link href="/news" className={styles.footer_section_two_link}>News</Link>
+                    <Link href="/contact" className={styles.footer_section_two_link}>Contact Us</Link>
+                    <Link href="#" className={styles.footer_section_two_link}>GeoSmart Digital</Link>
                 </div>
                 <div className={styles.footer_section_three}>
                     <h1>Support</h1>
@@ -65,13 +67,13 @@ export function WebFooter(){
                         <h1>Subsidiaries</h1>
                         <Link href="#" className={styles.web_footer_subsidiaries_link}>geosmart.ncrs.gov.ng</Link>
                         <div className={styles.web_footer_subsidiaries_office}>
-                            <h1>Zonal Offices</h1>
-                                
-                            <p>COPINE</p>
-                            <p>Uyo</p>
-                            <p>Kashere</p>
-                            <p>Abakiliki</p>
-                            <p>Lantang</p>
+                            <h1>Zonal Laboratories</h1>
+                            <Link className={styles.web_footer_subsidiaries_office_link} href="/laboratories/corporative-Information-network">COPINE</Link>
+                            <Link className={styles.web_footer_subsidiaries_office_link}href="/laboratories/avanced-space-technology-application-laboratory-uyo">Uyo</Link>
+                            <Link className={styles.web_footer_subsidiaries_office_link}href="/laboratories/zonal-advanced-space-technology-application-laboratory-kashere">Kashere</Link>
+                            <Link className={styles.web_footer_subsidiaries_office_link}href="/laboratories/zonal-advanced-space-technology-application-laboratory-kano">Kano</Link>
+                            <Link className={styles.web_footer_subsidiaries_office_link}href="/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki">Abakiliki</Link>
+                            <Link className={styles.web_footer_subsidiaries_office_link}href="/laboratories/zonal-advanced-space-technology-application-laboratory-langtang">Lantang</Link>
                         </div>
                     </div>
                     <div className={styles.web_footer_links}>

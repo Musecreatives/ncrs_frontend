@@ -1,4 +1,5 @@
 import { ListTag } from "@/componets/IconsPalette"
+import Link from "next/link"
 import styles from "./styles.module.css"
 
 export default function Labs(){
@@ -23,42 +24,42 @@ export default function Labs(){
                 <div className={styles.section_two_line}></div>
                 <h1 className={styles.section_two_heading}>Our Labs</h1>
                 <div className={styles.section_two_cards}>
-                    <div className={styles.section_two_card}>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
                         <p>Zonal Advanced Space Technology Application Laboratory (ZASTAL) Abakiliki</p>
-                    </div>
-                    <div className={styles.section_two_card}>
+                    </Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-langtang" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
                         <p>Zonal Advanced Space Technology Applications Laboratory  (ZASTAL) Langtang</p>
-                    </div>
-                    <div className={styles.section_two_card}>
+                    </Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kashere" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
                         <p>Zonal Advanced Space Technology Application Laboratory (ZASTAL) Kashere</p>
-                    </div>
-                    <div className={styles.section_two_card}>
+                    </Link>
+                    <Link href="/laboratories/avanced-space-technology-application-laboratory-uyo" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
                         <p>Advanced Space Technology Application Laboratory</p>
-                    </div>
-                    <div className={styles.section_two_card}>
+                    </Link>
+                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kano" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
                         <p>Zonal Advanced Space Technology Application Laboratory (ZASTAL) Kano</p>
-                    </div>
-                    <div className={styles.section_two_card}>
+                    </Link>
+                    <Link href="/laboratories/corporative-Information-network" className={styles.section_two_card}>
                         <div className={styles.section_two_card_icon_cover}>
                             <ListTag iconStyle={styles.section_two_card_icon}/>
                         </div>
                         <p>Corporative Information Network (COPINE)</p>
-                    </div>
+                    </Link>
                 </div>
                 </div>
             </section>

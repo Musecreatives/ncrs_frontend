@@ -82,6 +82,10 @@
     @apply block w-full py-[1.3rem] pl-[1rem] mb-[1rem] border-[1px] border-[#000] focus:outline-none rounded-[15px] h-[1rem]
 }
 
+.message_field{
+    @apply h-[10rem] px-1
+}
+
 .section_two_form_submit{
     @apply w-full text-center bg-[#191D1F] text-[#FFF] mt-[1rem] py-[0.5rem] 2xl:py-[1rem] rounded-[10px]
 }
@@ -99,7 +103,7 @@
 }
 
 .section_two_banner_cover{
-    @apply relative w-full xl:w-[50%] 2xl:w-[40%] h-[319px] slg:h-[579px]
+    @apply relative w-full xl:w-[50%] 2xl:w-[40%] h-[319px] slg:h-[49rem]
 }
 
 .section_two_banner{

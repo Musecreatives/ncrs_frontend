@@ -9,7 +9,6 @@ export default function Contact(){
                 <div className={styles.hero_layer}></div>
                 <div className={styles.hero_content}>
                     <p className={styles.heading_one}>Home / <span>Contact</span></p>
-                    {/* <p className={styles.heading_two}>Our Visions, Mission and Our Team</p> */}
                     <div className={styles.hero_title_page}>
                         <div className={styles.title_cover}>
                             <p className={styles.title}>NATIONAL CENTRE FOR REMOTE SENSING</p>
@@ -34,6 +33,9 @@ export default function Contact(){
                             <input type="email" className={styles.section_two_form_input} id="email"/>
                             <label htmlFor="subject" className={styles.section_two_form_label}>Subject</label>
                             <input type="text" className={styles.section_two_form_input} id="subject"/>
+                            
+                            <label htmlFor="message" className={styles.section_two_form_label}>Message</label>
+                            <textarea className={`${styles.section_two_form_input} ${styles.message_field}`} id="message"></textarea>
                             </div>
                             
                             <input type="submit" className={styles.section_two_form_submit} placeholder="Submit"/>

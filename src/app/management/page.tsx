@@ -23,6 +23,23 @@ export default function Management(){
             <section className={styles.section_two}>
                 <div className={styles.section_two_container}>
                     <h1 className={styles.section_two_container_heading}>Management <span>Team</span></h1>
+                    
+                    <div className={styles.section_two_single_card}>    
+                        <div className={styles.section_two_card}>
+                            <div className={`${styles.section_two_card_banner_cover} ${styles.single_card_banner}`}>
+                                <Image src="/img/img-01.jpg" className={styles.section_two_card_banner} alt='image' fill />
+                            </div>
+                            <div className={styles.section_two_card_text}>
+                                <h1>Barrack Obama</h1>
+                                <p>Managing Director</p>
+                            </div>
+                            <div className={styles.section_two_card_link_cover}>
+                            <Link href="#" className={styles.section_two_card_link}>View Profile</Link>
+                            </div>
+                    </div>
+                    </div>
+                    
+
                     <div className={styles.section_two_cards}>
                         <div className={styles.section_two_card}>
                             <div className={styles.section_two_card_banner_cover}>

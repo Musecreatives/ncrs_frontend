@@ -1,9 +1,9 @@
 .hero{
-    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] relative
+    @apply bg-building bg-no-repeat bg-cover h-[50vh] xlg-max:h-[90vh] xl:h-[90vh] relative
 }
 
 .hero_layer{
-    @apply h-[50vh] xlg-max:h-[100vh] xl:h-[100vh] w-full absolute bg-[#0A0A0ABA]
+    @apply h-full w-full absolute bg-[#0A0A0ABA]
 }
 
 .hero_content{
@@ -31,7 +31,7 @@
 }
 
 .title{
-    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+    @apply text-[14px] slg:text-[20px] xlg:text-[22px] font-[400] uppercase
 }
 
 .page_cover{
@@ -39,25 +39,25 @@
 }
 
 .page{
-    @apply text-[28px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[28px] slg:text-[34px] xlg:text-[54px] font-[700] text-[#FFF]
 }
 
 .section_two{
-
+    @apply py-4 xlg:py-10
 }
 
 .section_two_container{
-
+    @apply xl:py-[3rem]
 }
 
 .section_two_container_heading{
-    @apply text-[40px] font-[700]
+    @apply text-[30px] xlg:text-[50px] xl:text-[60px] font-[700] text-center mb-4 xlg:mb-10 xl:mb-16
 }
 
 .section_two_banner_cover{
-    @apply relative w-full h-[174px]
+    @apply relative w-[90%] mx-auto h-[174px] slg:h-[350px] xlg:h-[600px] 2xl:h-[900px]
 }
 
 .section_two_banner{
-    @apply w-full h-full object-scale-down
+    @apply w-full h-full object-fill
 }

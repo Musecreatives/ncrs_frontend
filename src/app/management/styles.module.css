@@ -39,11 +39,15 @@
 }
 
 .page{
-    @apply text-[28px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[28px] slg:text-[44px] xlg:text-[55px] font-[700] text-[#FFF]
 }
 
 .section_two{
     @apply pt-[1rem] xl:pt-[3rem] pb-[3rem] px-[2rem]
+}
+
+.section_two_single_card{ 
+    @apply slg:w-[60%] xlg:w-[50%] xl:w-[40%] 2xl:w-[35%] slg:mx-auto mt-[5rem]
 }
 
 .section_two_container{
@@ -51,7 +55,7 @@
 }
 
 .section_two_container_heading{
-    @apply text-center text-[25px] xl:text-[40px] font-[700]
+    @apply text-center text-[25px] slg:text-[40px] xl:text-[40px] font-[700]
 }
 
 .section_two_container_heading > span{
@@ -68,6 +72,10 @@
 
 .section_two_card_banner_cover{
     @apply relative w-full h-[291px] rounded-[15px]
+}
+
+.single_card_banner{
+    @apply xlg:h-[355px]
 }
 
 .section_two_card_banner{

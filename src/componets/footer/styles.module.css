@@ -25,8 +25,8 @@
     @apply text-[24px] font-[700]
 }
 
-.footer_section_one > p{
-    @apply text-[20px] font-[500]
+.footer_section_one_link{
+    @apply block text-[16px] font-[500] my-[0.2rem]
 }
 
 .footer_section_two{
@@ -38,7 +38,7 @@
 }
 
 .footer_section_two_link{
-    @apply block text-[20px] font-[500]
+    @apply block text-[16px] font-[500] my-[0.2rem]
 }
 
 .footer_section_three > h1{
@@ -46,7 +46,7 @@
 }
 
 .footer_section_three > p{
-    @apply block text-[20px] font-[500]
+    @apply block text-[16px] font-[500] my-[0.2rem]
 }
 
 .footer_section_four{

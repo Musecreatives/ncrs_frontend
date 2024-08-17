@@ -9,12 +9,12 @@ export default function Footer(){
                 <p className={styles.footer_consultancy}>consultancy.ncrs.gov.ng</p>
                 <div className={styles.footer_section_one}>
                     <h1>Zonal Laboratories</h1>
-                    <Link href="/laboratories/corporative-Information-network">COPINE</Link>
-                    <Link href="/laboratories/avanced-space-technology-application-laboratory-uyo">Uyo</Link>
-                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kashere">Kashere</Link>
-                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-kano">Kano</Link>
-                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki">Abakiliki</Link>
-                    <Link href="/laboratories/zonal-advanced-space-technology-application-laboratory-langtang">Lantang</Link>
+                    <Link className={styles.footer_section_one_link} href="/laboratories/corporative-Information-network">COPINE</Link>
+                    <Link className={styles.footer_section_one_link} href="/laboratories/avanced-space-technology-application-laboratory-uyo">Uyo</Link>
+                    <Link className={styles.footer_section_one_link} href="/laboratories/zonal-advanced-space-technology-application-laboratory-kashere">Kashere</Link>
+                    <Link className={styles.footer_section_one_link} href="/laboratories/zonal-advanced-space-technology-application-laboratory-kano">Kano</Link>
+                    <Link className={styles.footer_section_one_link} href="/laboratories/zonal-advanced-space-technology-application-laboratory-abakiliki">Abakiliki</Link>
+                    <Link className={styles.footer_section_one_link} href="/laboratories/zonal-advanced-space-technology-application-laboratory-langtang">Lantang</Link>
                 </div>
                 <div className={styles.footer_section_two}>
                     <h1>Quick Links</h1>

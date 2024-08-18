@@ -160,3 +160,34 @@ export function Mail({iconStyle}:Props){
         </svg>
     )
 }
+
+export function Cancel({iconStyle}:Props){
+    return(
+        <svg width="50" height="50" className={iconStyle} viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="iconoir:cancel">
+                <rect width="50" height="50" rx="10" fill="#BCBCBC" fill-opacity="0.36"/>
+                <path id="Vector" d="M14.0801 35.9229L25.003 25L35.9259 35.9229M35.9259 14.0771L25.0009 25L14.0801 14.0771" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </svg>
+    )
+}
+
+export function Prev({iconStyle}:Props){
+    return(
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" className={iconStyle} xmlns="http://www.w3.org/2000/svg">
+            <g id="bxs:up-arrow">
+                <path id="Vector" d="M36.4175 5.74998L36.4175 40.25C36.4164 40.5993 36.32 40.9417 36.1388 41.2403C35.9576 41.5389 35.6984 41.7824 35.3891 41.9447C35.0798 42.1069 34.732 42.1818 34.3834 42.1611C34.0347 42.1404 33.6982 42.0251 33.4102 41.8274L8.49356 24.5774C7.46048 23.8625 7.46048 22.1413 8.49356 21.4245L33.4102 4.17448C33.6976 3.97481 34.0342 3.85772 34.3835 3.83593C34.7328 3.81414 35.0813 3.88848 35.3913 4.05088C35.7013 4.21328 35.9608 4.45752 36.1418 4.75708C36.3227 5.05663 36.418 5.40003 36.4175 5.74998Z" fill="#F4F4F5"/>
+            </g>
+        </svg>
+    )
+}
+
+export function Next({iconStyle}:Props){
+    return(
+        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" className={iconStyle} xmlns="http://www.w3.org/2000/svg">
+            <g id="bxs:up-arrow">
+            <path id="Vector" d="M9.58253 5.74998L9.58253 40.25C9.58362 40.5993 9.67996 40.9417 9.86117 41.2403C10.0424 41.5389 10.3016 41.7824 10.6109 41.9447C10.9202 42.1069 11.268 42.1818 11.6166 42.1611C11.9653 42.1404 12.3018 42.0251 12.5898 41.8274L37.5064 24.5774C38.5395 23.8625 38.5395 22.1413 37.5064 21.4245L12.5898 4.17448C12.3024 3.97481 11.9658 3.85772 11.6165 3.83593C11.2672 3.81414 10.9187 3.88848 10.6087 4.05088C10.2987 4.21328 10.0392 4.45752 9.85825 4.75708C9.67734 5.05663 9.58198 5.40003 9.58253 5.74998Z" fill="#F4F4F5"/>
+            </g>
+        </svg>
+    )
+}

@@ -66,3 +66,5 @@
             slug:"/#"
         }
     ]
+
+    export const gallery =["/img/gallery_1.jpeg","/img/gallery_2.jpeg","/img/gallery_3.jpeg","/img/gallery_4.jpeg","/img/gallery_5.jpeg","/img/gallery_6.jpeg"]

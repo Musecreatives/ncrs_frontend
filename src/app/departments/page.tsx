@@ -34,7 +34,7 @@ export default function Department(){
             <section className={styles.department_section_one}>
                 <h1>Strategic Planning Department</h1>
                 <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                <Link className={styles.department_section_one_link} href="#">
+                <Link className={styles.department_section_one_link} href="/administration">
                     <p>Learn More</p>
                     <RightArrow iconStyle={styles.department_section_one_link_icon}/>
                 </Link>
@@ -43,7 +43,7 @@ export default function Department(){
             <section className={styles.department_section_one}>
                 <h1>Strategic Planning Department</h1>
                 <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                <Link className={styles.department_section_one_link} href="#">
+                <Link className={styles.department_section_one_link} href="/planning">
                     <p>Learn More</p>
                     <RightArrow iconStyle={styles.department_section_one_link_icon}/>
                 </Link>

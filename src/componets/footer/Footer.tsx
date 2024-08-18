@@ -29,11 +29,7 @@ export default function Footer(){
                     <h1>Support</h1>
                     <p>Cookies Policy</p>
                     <p>Privacy Policy</p>
-                    <p>ISMS Policy</p>
                     <p>FAQs</p>
-                    <p>Contact Us</p>
-                    <p>Sitemap</p>
-                    <p>NPKI CRL</p>
                 </div>
                 <div className={styles.footer_section_four}>
                     <h1>NCRS HQ</h1>
@@ -92,11 +88,7 @@ export function WebFooter(){
                         <div className={styles.web_footer_support_section_one}>
                             <p>Cookies Policy</p>
                             <p>Privacy Policy</p>
-                            <p>ISMS Policy</p>
                             <p>FAQs</p>
-                            <p>Contact Us</p>
-                            <p>Sitemap</p>
-                            <p>NPKI CRL</p>
                         </div>
                     </div>
                     <div className={styles.web_footer_contacts}>

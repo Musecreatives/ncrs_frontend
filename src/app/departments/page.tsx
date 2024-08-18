@@ -96,7 +96,7 @@ export function WebDepartment(){
                         <div className={styles.web_department_section_two_contents_one}>
                             <h1>Department of Finance & Administration</h1>
                             <p>The department headed by a Deputy Director is subdivided into two sections, namely; General Administration and Finance Sections. The General Administration Section is further subdivided into units for efficient functioning. There are six Units headed by the Chief Administrative/Executive Officer who supervises the activities and staff in each of the units.</p>
-                            <Link className={styles.web_department_section_two_link} href="#">
+                            <Link className={styles.web_department_section_two_link} href="/administration">
                                 <p>Learn More</p>
                                 <RightArrow iconStyle={styles.web_department_section_two_link_icon}/>
                             </Link>
@@ -114,7 +114,7 @@ export function WebDepartment(){
                     <div className={styles.web_department_section_three_contents_one}>
                         <h1>Strategic Planning Department</h1>
                         <p>The department, headed by a Deputy Director is subdivided into four sections. These sections all come together in the establishment of a strategy for achieving organizational goals, as well as developing comprehensive plans to integrate and coordinate activities.</p>
-                        <Link className={styles.web_department_section_two_link} href="#">
+                        <Link className={styles.web_department_section_two_link} href="/planning">
                             <p>Learn More</p>
                             <RightArrow iconStyle={styles.web_department_section_three_link_icon}/>
                         </Link>

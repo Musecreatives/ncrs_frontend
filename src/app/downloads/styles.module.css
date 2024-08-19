@@ -63,7 +63,7 @@
 }
 
 .section_two_container_main_table_row{
-    @apply flex justify-between items-center px-[0.5rem] py-[0.5rem]
+    @apply flex justify-between items-center px-[0.5rem] sm:px-[1rem] slg:px-[2rem] xl:px-[3rem] py-[0.5rem]
 }
 
 .section_two_container_main_table_row_heading{

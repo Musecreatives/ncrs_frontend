@@ -47,11 +47,11 @@
 }
 
 .section_two_single_card{ 
-    @apply slg:w-[60%] xlg:w-[50%] xl:w-[40%] 2xl:w-[35%] slg:mx-auto mt-[5rem]
+    @apply slg:w-[50%] xlg:w-[40%] xl:w-[35%] 2xl:w-[33%] slg:mx-auto mt-[5rem]
 }
 
 .section_two_container{
-    @apply xmd:w-[80%] slg:w-[90%] 2xl:w-[70%] mx-auto
+    @apply xmd:w-[80%] slg:w-[90%] 2xl:w-[60%] mx-auto
 }
 
 .section_two_container_heading{

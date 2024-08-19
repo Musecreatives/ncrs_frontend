@@ -39,7 +39,7 @@
 }
 
 .page{
-    @apply text-[30px] slg:text-[64px] font-[700] text-[#FFF]
+    @apply text-[30px] slg:text-[44px] font-[700] text-[#FFF]
 }
 .section_two{
     @apply  px-5 my-[3rem] xl:px-[5rem] 2xl:px-[10rem]

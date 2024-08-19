@@ -13,7 +13,6 @@ interface BlogCardProps {
 
 
 export default function BlogCard({img,heading,author,date,slug,}:BlogCardProps){
-    console.log(img)
     return(
         <div className={styles.blog_post_slide_card}>
             <div className={styles.blog_post_slide_card_banner_cover}>

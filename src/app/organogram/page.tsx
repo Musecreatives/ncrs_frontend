@@ -23,7 +23,7 @@ export default function Organogram(){
                 <div className={styles.section_two_container}>
                     <h1 className={styles.section_two_container_heading}>ORGANOGRAM</h1>
                     <div className={styles.section_two_banner_cover}>
-                        <Image src="/img/organogram.png" alt="image" className={styles.section_two_banner} fill />
+                        <Image src="/img/NCRS.drawio-1.svg" alt="image" className={styles.section_two_banner} fill />
                     </div>
                 </div>
             </section>

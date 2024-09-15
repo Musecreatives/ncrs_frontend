@@ -1,7 +1,7 @@
 import BlogPostSlide from "@/componets/BlogPostSlide";
 import BlogSlide from "@/componets/blogSlide/BlogSlide";
 import Departments, {WebDepartment} from "@/componets/department/Departments";
-import Hero, {WebHero} from "@/componets/hero/Hero";
+import Hero from "@/componets/hero/Hero";
 import { Trend, ListTag, RightArrow } from "@/componets/IconsPalette";
 import KeyLinks, { WebKeyLinks } from "@/componets/keylinks/KeyLinks";
 import NewsLetter from "@/componets/newsletter/NewsLetter";
@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <main className="index_main">
       <Hero/>
-      <WebHero/>
       <KeyLinks/>
       <WebKeyLinks/>
       <Quote/>

@@ -35,7 +35,7 @@
 }
 
 .web_quote_content{
-    @apply w-[60%] xl:w-[65%] xlg-max:pr-[2rem] xl:pr-[6.3rem] 2xl:pr-[19.2rem] relative
+    @apply w-[60%] xl:w-[65%] xlg-max:pr-[2rem] xl:pr-[6.3rem] 2xl:pr-[6.2rem] relative
 }
 
 .web_quote_content > h1{

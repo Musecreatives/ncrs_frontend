@@ -110,14 +110,14 @@ export function WebKeyLinks(){
                     <span className={styles.web_key_link_container_bottom_clip}></span>
                 </div>
 
-                <div className={styles.web_link_key_card}>
+                {/* <div className={styles.web_link_key_card}>
                     <p className={styles.web_key_links_card_heading}>Leadership</p>
                     <div className={styles.web_key_links_card_content}>
                         <Analytics iconStyle={styles.web_key_links_card_icon}/>
                         <p>Meet our Directors</p>
                     </div>
                     <span className={styles.web_key_link_container_bottom_clip}></span>
-                </div>
+                </div> */}
 
               </motion.div>
             </motion.div>

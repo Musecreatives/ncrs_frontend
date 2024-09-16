@@ -201,7 +201,7 @@
 }
 
 .web_footer_copyright > h1{
-    @apply text-[19px] xl:text-[22px] font-[700]
+    @apply text-[19px] font-[700]
 }
 
 .web_footer_copyright > h1 > span{
@@ -209,7 +209,7 @@
 }
 
 .web_footer_copyright > p{
-    @apply text-[19px] xl:text-[22px] font-[500]
+    @apply text-[17px] font-[500]
 }
 
 .web_footer_content_cover{

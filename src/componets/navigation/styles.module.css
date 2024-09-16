@@ -24,7 +24,7 @@
 }
 
 .web_link{
-    @apply text-[16px] xlg:text-[20px]  font-[400] text-[#1C5237] text-center
+    @apply text-[16px] xlg:text-[18px]  font-[400] text-[#1C5237] text-center
 }
 
 .link_arrow{

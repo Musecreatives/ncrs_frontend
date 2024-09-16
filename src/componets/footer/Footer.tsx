@@ -37,8 +37,8 @@ export default function Footer(){
                     Annex: Km 11, Jos-Bukuru Express Way, P.M.B 2136 Jos</p>
                 </div>
                 <div className={styles.footer_section_five}>
-                    <p>Phone 1: +234 706 291 6261</p>
-                    <p>Phone 2: +234 810 459 7908</p>
+                    <p>Ncrs: +2348088714963</p>
+                    <p>Geosmart: +2348035998585</p>
                     <p>Email: info@NCRS.gov.ng</p>
                 </div>
                 <div className={styles.footer_circle_line}>
@@ -98,8 +98,8 @@ export function WebFooter(){
                         </div>
                         <div className={styles.web_footer_contacts_section_two}>
                             <p>Email: info@NCRS.gov.ng</p>
-                            <p>Phone 1: +234 706 291 6261</p>
-                            <p>Phone 2: +234 810 459 7908</p>
+                            <p>Ncrs: +2348088714963</p>
+                            <p>Geosmart: +2348035998585</p>
                         </div>
                     </div>
             </div>

@@ -45,7 +45,7 @@
 }
 
 .web_line_block{
-    @apply w-[150px] h-[30px] bg-[#1C5237] my-[2rem]
+    @apply w-[150px] h-[25px] bg-[#1C5237] my-[2rem]
 }
 
 .web_hero_slide_shade{
@@ -93,7 +93,7 @@
 }
 
 .line_block{
-    @apply w-[150px] h-[30px] mx-auto bg-[#1C5237] my-[2rem]
+    @apply w-[150px] h-[20px] mx-auto bg-[#1C5237] my-[2rem]
 }
 
 .mobile_hero_slide_shade{

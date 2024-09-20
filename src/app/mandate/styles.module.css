@@ -7,7 +7,7 @@
 }
 
 .hero_content{
-    @apply w-full slg:w-[85%] 2xl:w-[60%] absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
+    @apply w-full slg:w-[85%] 2xl:w-[60%] font-poppins absolute bottom-[10%] xlg-max:bottom-[20%] 2xl:bottom-[40%] xl:bottom-[20%] slg:left-[2rem] xl:left-[5rem] px-[1rem]
 }
 
 .heading_one{
@@ -31,7 +31,7 @@
 }
 
 .title{
-    @apply text-[14px] slg:text-[22px] font-[400] uppercase
+    @apply text-[14px] slg:text-[22px] font-poppins font-[400] uppercase
 }
 
 .page_cover{
@@ -39,14 +39,14 @@
 }
 
 .page{
-    @apply text-[30px] slg:text-[44px] font-[700] text-[#FFF]
+    @apply text-[30px] slg:text-[44px] font-[700] text-[#FFF] font-poppins
 }
 .section_two{
     @apply  px-5 my-[3rem] xl:px-[5rem] 2xl:px-[10rem]
 }
 
 .section_two_container{
-    @apply slg:w-[90%] xl:w-[95%] 2xl:w-[80%]  mx-auto 
+    @apply slg:w-[90%] xl:w-[95%] 2xl:w-[80%] font-poppins  mx-auto 
 }
 
 .section_two_content_cover{
@@ -62,11 +62,11 @@
 }
 
 .section_two_container > h1{
-    @apply text-[36px] slg:text-[46px] font-[700]
+    @apply text-[36px] slg:text-[46px] font-[700] font-poppins
 }
 
 .section_two_content > article > p{
-    @apply text-[16px] font-[500] text-[#666C89] my-[1rem]
+    @apply text-[16px] slg:text-[20px] font-[500] text-[#666C89] my-[1rem] font-poppins
 }
 
 .section_two_content > article > ul{
@@ -74,12 +74,12 @@
 }
 
 .section_two_content > article > ul > li{
-    @apply text-[16px] font-[500] text-[#666C89] my-[1rem]
+    @apply text-[16px] slg:text-[20px] font-[500] text-[#666C89] my-[1rem] font-poppins
 }
 
 .section_two_banner_cover{
     @apply relative w-[474px] slg:w-full xl:w-[50%] 2xl:w-[40%] slg:h-[453px] h-[563px] xlg-max:h-[423px] xl:h-[400px] 2xl:h-[400px]
-    rounded-[15px]  hidden slg:block
+    rounded-[15px] slg:block
 }
 
 .section_two_banner{
@@ -95,7 +95,7 @@
 }
 
 .section_three_text{
-    @apply py-[3rem] px-[4rem] xl:px-[5rem] xlg-max:w-[60%] xl:w-[60%] 2xl:w-[50%] leading-normal
+    @apply font-poppins py-[3rem] px-[2rem] slg:px-[3rem] xl:px-[5rem] xlg-max:w-[60%] xl:w-[60%] 2xl:w-[50%] leading-normal
 }
 
 .section_three_text > ul{
@@ -103,7 +103,7 @@
 }
 
 .section_three_text > ul > li{
-    @apply text-[#FFFFFF] text-[15px] xlg:text-[20px] my-[5px] 2xl:my-[15px]
+    @apply text-[#FFFFFF] font-poppins text-[15px] slg:text-[20px] my-[5px] 2xl:my-[15px]
 }
 
 .section_three_banner_cover{

@@ -7,14 +7,14 @@
             slug:"/#"
         },
         {
-            img:"/img/latest_news2.png",
+            img:"/img/img-14.jpg",
             author:"John Doe",
             date:"Apr 15 2024",
             heading:"Collaboration of NITDA WITH NSRDA",
             slug:"/#"
         },
         {
-            img:"/img/latest_news3.png",
+            img:"/img/img-15.jpg",
             author:"John Doe",
             date:"Apr 15 2024",
             heading:"Collaboration of NITDA WITH NSRDA",

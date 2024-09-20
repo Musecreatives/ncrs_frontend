@@ -24,7 +24,7 @@
 }
 
 .web_link{
-    @apply text-[16px] xlg:text-[18px]  font-[400] text-[#1C5237] text-center
+    @apply text-[16px] xlg:text-[18px]  font-[400] text-[#1C5237] text-center text-[poppins]
 }
 
 .link_arrow{
@@ -60,7 +60,7 @@
 }
 
 .mobliemenu_cover{
-    @apply absolute top-0 right-0 w-full h-[100vh] bg-[#0000009f] pt-[1.5rem]
+    @apply absolute top-0 right-0 w-full h-screen bg-[#0000009f] pt-[1.5rem]
 }
 
 .mobliemenu{
@@ -68,5 +68,9 @@
 }
 
 .mobliemenu_link{
-    @apply block text-[#000000B2] my-[16px]
+    @apply block text-[#000000B2] my-[25px] font-[500] font-poppins
+}
+
+.no-scroll{
+    @apply overflow-hidden h-screen
 }

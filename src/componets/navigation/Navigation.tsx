@@ -12,15 +12,19 @@ export default function Navigation() {
 
   const openMenu = ()=>{
     setIsOpened(true)
+    document.body.classList.add('no-scroll')
   }
 
   const closeMenu = ()=>{
     setIsOpened(false)
+    document.body.classList.remove('no-scroll')
   }
 
   return (
     <div className={styles.nav}>
+      <Link href='/'>
         <Image src="/img/nrcs-logo.png" alt='ncrs logo' className={styles.nav_logo} height={100} width={100}/>
+      </Link>
         <div onClick={()=>openMenu()}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={styles.nav_bars}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -85,7 +89,7 @@ export function MobileMenu(){
       <Link href="/" className={styles.mobliemenu_link}>Home</Link>
       <Link href="/about" className={styles.mobliemenu_link}>About us</Link>
       <Link href="/departments" className={styles.mobliemenu_link}>Departments</Link>
-      <Link href="/programs" className={styles.mobliemenu_link}>Programs</Link>
+      {/* <Link href="/programs" className={styles.mobliemenu_link}>Programs</Link> */}
       <Link href="/news" className={styles.mobliemenu_link}>News</Link>
       <Link href="/background" className={styles.mobliemenu_link}>Our background</Link>
       <Link href="/mandate" className={styles.mobliemenu_link}>Mandate</Link>

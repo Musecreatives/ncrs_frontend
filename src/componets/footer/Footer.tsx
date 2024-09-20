@@ -6,7 +6,7 @@ export default function Footer(){
         <div className={styles.footer}>
             <div className={styles.footer_content}>
                 <h1 className={styles.footer_heading}>Subsidiaries</h1>
-                <p className={styles.footer_consultancy}>consultancy.ncrs.gov.ng</p>
+                <Link href="https://geosmart.ncrs.gov.ng/" target="blank" className={styles.footer_consultancy}>geosmart.ncrs.gov.ng</Link>
                 <div className={styles.footer_section_one}>
                     <h1>Zonal Laboratories</h1>
                     <Link className={styles.footer_section_one_link} href="/laboratories/corporative-Information-network">COPINE</Link>
@@ -61,7 +61,7 @@ export function WebFooter(){
                 <div className={styles.web_footer_cover}>
                     <div className={styles.web_footer_subsidiaries}>
                         <h1>Subsidiaries</h1>
-                        <Link href="#" className={styles.web_footer_subsidiaries_link}>geosmart.ncrs.gov.ng</Link>
+                        <Link href="https://geosmart.ncrs.gov.ng/" target="blank" className={styles.web_footer_subsidiaries_link}>geosmart.ncrs.gov.ng</Link>
                         <div className={styles.web_footer_subsidiaries_office}>
                             <h1>Zonal Laboratories</h1>
                             <Link className={styles.web_footer_subsidiaries_office_link} href="/laboratories/corporative-Information-network">COPINE</Link>
@@ -75,12 +75,12 @@ export function WebFooter(){
                     <div className={styles.web_footer_links}>
                         <h1 className={styles.web_footer_links_heading}>Useful Links</h1>
                         <div>
-                            <Link href="#" className={styles.web_footer_links_link}>About Us</Link>
+                            <Link href="/about" className={styles.web_footer_links_link}>About Us</Link>
                             <Link href="#" className={styles.web_footer_links_link}>Services</Link>
                             <Link href="#" className={styles.web_footer_links_link}>Recent Programs</Link>
                             <Link href="#" className={styles.web_footer_links_link}>News</Link>
                             <Link href="#" className={styles.web_footer_links_link}>Contact Us</Link>
-                            <Link href="#" className={styles.web_footer_links_link}>GeoSmart Digital</Link>
+                            <Link href="https://geosmart.ncrs.gov.ng/" target="blank" className={styles.web_footer_links_link}>GeoSmart Digital</Link>
                         </div>
                     </div>
                     <div className={styles.web_footer_support}>

@@ -35,7 +35,7 @@ export default function Mandate(){
                             </article>
                         </div>
                         <div className={styles.section_two_banner_cover}>
-                            <Image src="/img/mandate-card-image.jpeg" alt='image' className={styles.section_two_banner} fill/>
+                            <Image src="/img/img-13.jpg" alt='image' className={styles.section_two_banner} fill/>
                         </div>
                     </div>
                 </div>

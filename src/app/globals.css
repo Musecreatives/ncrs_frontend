@@ -7,3 +7,8 @@
 @layer utilities {
 
 }
+
+.no-scroll{
+    /* @apply overflow-hidden h-screen */
+    @apply fixed w-full
+}

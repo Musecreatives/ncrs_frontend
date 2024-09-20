@@ -48,9 +48,9 @@ const config: Config = {
           '5xl': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
           '6xl':' 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25)'
         },
-      fontFamily:{
-        afacad: ['var(--font-afacad)']
-      },
+        fontFamily: {
+          poppins: ['Poppins', 'sans-serif'],
+        },
       display: ["group-hover"],
     },
   },

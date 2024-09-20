@@ -6,19 +6,19 @@
 }
 
 .footer_content{
-    @apply px-[34px] pt-10 bg-black
+    @apply px-[34px] pt-10 bg-black font-poppins
 }
 
 .footer_heading{
-    @apply text-[24px] font-[700]
+    @apply text-[24px] font-[700] font-poppins
 }
 
 .footer_consultancy{
-    @apply text-[16px]  my-5
+    @apply text-[16px]  my-5 font-poppins
 }
 
 .footer_section_one{
-
+    @apply font-poppins
 }
 
 .footer_section_one > h1{
@@ -30,7 +30,7 @@
 }
 
 .footer_section_two{
-
+    @apply font-poppins
 }
 
 .footer_section_two > h1{
@@ -50,7 +50,7 @@
 }
 
 .footer_section_four{
-
+    @apply font-poppins
 }
 
 .footer_section_four > h1{
@@ -62,7 +62,7 @@
 }
 
 .footer_section_five{
-    @apply my-10
+    @apply my-10 font-poppins
 }
 
 .footer_section_five > p{
@@ -82,15 +82,15 @@
 }
 
 .footer_copyright{
-    @apply text-[#000000] text-center pt-[0.5rem]
+    @apply text-[#000000] text-center pt-[0.5rem] 
 }
 
 .footer_copyright > h1{
-    @apply text-[12px] font-[700]
+    @apply text-[12px] font-[700] font-poppins
 }
 
 .footer_copyright > h1 > span{
-    @apply font-[400]
+    @apply font-[400] font-poppins
 }
 
 .footer_copyright > p{
@@ -112,15 +112,15 @@
 }
 
 .web_footer_subsidiaries > h1{
-    @apply text-[24px] font-[500] mb-5
+    @apply text-[24px] font-[500] mb-5 font-poppins
 }
 
 .web_footer_subsidiaries_link{
-    @apply text-[16px] font-[400]
+    @apply text-[16px] font-[400] font-poppins
 }
 
 .web_footer_subsidiaries_office{
-    @apply mt-5
+    @apply mt-5 font-poppins
 }
 
 .web_footer_subsidiaries_office > h1{
@@ -136,19 +136,19 @@
 }
 
 .web_footer_links_heading{
-    @apply text-[24px] font-[700]
+    @apply text-[24px] font-[700] font-poppins
 }
 
 .web_footer_links_link{
-    @apply block text-[16px] font-[400] my-[0.2rem]
+    @apply block text-[16px] font-[400] my-[0.2rem] font-poppins
 }
 
 .web_footer_support{
-
+    @apply font-poppins
 }
 
 .web_footer_support_heading{
-    @apply text-[24px] font-[700]
+    @apply text-[24px] font-[700] font-poppins
 }
 
 .web_footer_support_section_one{
@@ -156,11 +156,11 @@
 }
 
 .web_footer_support_section_one > p{
-    @apply text-[16px] font-[400] my-[0.2rem]
+    @apply text-[16px] font-[400] my-[0.2rem] font-poppins
 }
 
 .web_footer_contacts{
-
+    @apply font-poppins
 }
 
 .web_footer_contacts_heading{
@@ -168,7 +168,7 @@
 }
 
 .web_footer_contacts_section_one{
-    @apply mt-5
+    @apply mt-5 font-poppins
 }
 
 .web_footer_contacts_section_one > p{
@@ -197,7 +197,7 @@
 }
 
 .web_footer_copyright{
-    @apply text-[#000000] text-center py-[1rem]
+    @apply text-[#000000] text-center py-[1rem] font-poppins
 }
 
 .web_footer_copyright > h1{
